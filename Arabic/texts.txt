@@ -1,0 +1,2629 @@
+//
+// Radius Manager string definitions file
+//
+// There must be a TAB character between token and strings
+//
+
+// ACP login
+
+{ACPLOGIN0}	لوحة تحكم الإدارة	
+{ACPLOGIN1}	اسم المدير	
+{ACPLOGIN2}	كلمة السر
+{ACPLOGIN3}	تسجيل الدخول	
+{ACPLOGIN4}	تسجيل دخول آمن	
+{ACPLOGIN5}	لوحة تحكم المدير	
+{ACPLOGIN6}	اللغة
+{ACPLOGIN7}	This website uses cookies which are mandatory for a proper function of the system. The cookies are used for storing the order of columns in list views. The cookies <b>doesn't collect any statistical or analytical information</b> and can be examined, removed or blocked in the webbrowser. If You don't agree, please don't use this website.
+	
+// ACP logout		
+		
+{ACPLOGOUT0}	لوحة تحكم الإدارة	
+{ACPLOGOUT1}	إعادة توجيه إلى صفحة تسجيل الدخول ...	
+{ACPLOGOUT2}	تسجيل الدخول	
+{ACPLOGOUT3}	لوحة تحكم المدير	
+		
+// ACP redirect		
+		
+{RDRCT0}	إعادة توجيه إلى الصفحة المطلوبة ...	
+{RDRCT1}	اضغط هنا لأجبار اعادة التوجيه للصفحه المطلوبة	
+{RDRCT2}	إعادة توجيه ...	
+		
+// ACP main		
+		
+{ACPMAIN0}	المدير	
+{ACPMAIN1}	التاريخ	
+{ACPMAIN2}	النسخة	
+{ACPMAIN3}	لوحة تحكم المدير	
+{ACPMAIN4}	RADIUS	
+{ACPMAIN5}	DHCP	
+{ACPMAIN6}	الرصيد
+		
+// ACP home		
+		
+{HOME0}	الرئيسية	
+{HOME1}	جميع الحقوق محفوظة.	
+{HOME2}	يمنع النسخ غير المصرح بها أو استخدام <BR> هذا البرنامج.	
+{HOME3}	اتفاقية ترخيص المستخدم
+{HOME4}	نسخة	
+		
+// ACP find refill cards		
+		
+{FNDRFL0}	البحث عن كروت شحن الرصيد	
+{FNDRFL1}	رقم الكارت 
+{FNDRFL2}	مجموعه كروت	
+{FNDRFL3}	صاحب الكارت	
+{FNDRFL4}	مفعلة بتاريخ	
+{FNDRFL5}	اختيار
+{FNDRFL6}	الكل	
+{FNDRFL7}	كروت نشطة 
+{FNDRFL8}	كروت منتهيه
+{FNDRFL9}	كروت ملغيه
+{FNDRFL10}	بحث	
+{FNDRFL11}	إعادة تعيين	
+		
+// ACP check refill card		
+		
+{CHKCARD0}	ألتحقق من كارت شحن الرصيد	
+{CHKCARD1}	رقم الكارت
+{CHKCARD2}	هذه العلامة * تعنى خانه لابد من كتابتها	
+{CHKCARD3}	اختيار الكارت	
+		
+// ACP show refill card data		
+		
+{SHOWCARD0}	بيانات كارت شحن الرصيد الجديد	
+{SHOWCARD1}	رقم الكارت
+{SHOWCARD2}	مجموعه كروت
+{SHOWCARD3}	انشئت بتاريخ
+{SHOWCARD4}	انتهاء	
+{SHOWCARD5}	قيمة الكارت
+{SHOWCARD6}	شحن الكارت من خلال
+{SHOWCARD7}	المنشط على	
+		
+// ACP eula		
+		
+{EULA0}	نهاية اتفاقية ترخيص المستخدم	
+		
+// ACP system settings		
+		
+{SYSET0}	إعدادات النظام	
+{SYSET1}	العملة	
+{SYSET2}	نسبة الضريبة	
+{SYSET3}	مزامنة حسابات لينكس	
+{SYSET4}	إدارة الحصة النسبية للقرص	
+{SYSET5}	القرص قالب حصة المستخدم	
+{SYSET6}	امكانيه تغير العميل سرعته 	
+{SYSET7}	عند تغيرالخدمة ، العميل يفقد ما تبقى فى حسابه	
+{SYSET8}	نوع الضريبية للدفع نقدا	
+{SYSET9}	نوع من الضرائب لتحويل مصرفي	
+{SYSET10}	فترة سماح	
+{SYSET11}	تعطيل الحسابات بسبب فواتير غير مدفوعة	
+{SYSET12}	هذه العلامة * تعني خانة لا بد من كتابتها	
+{SYSET13}	قم بالتحديث 	
+{SYSET14}	شمل	
+{SYSET15}	إستبعاد	
+{SYSET16}	أيام	
+{SYSET17}	تعطيل الحسابات بسبب العقد منتهية الصلاحية	
+{SYSET18}	طريقة انقطاع	
+{SYSET19}	الشبكة
+{SYSET20}	ريموت
+{SYSET21}	تنبيه بكميه الدونلود	
+{SYSET22}	ميجا بايت
+{SYSET23}	تنبيه بكميه الأبلود	
+{SYSET24}	تنبيه بأجمالى التحميلات	
+{SYSET25}	تنبيه بمدة استخدام الانترنت	
+{SYSET26}	تنبيه بنتهاء الاشتراك	
+{SYSET27}	(HH: MM: SS)	
+{SYSET28}	يوم (s)	
+{SYSET29}	تنبيه بانتهاء الاشتراك برساله على البريد الاليكترونى	
+{SYSET30}	تمكين التسجيل الذاتي	
+{SYSET31}	امكانيه تغير بيانات المشترك (UCP)	
+{SYSET32}	باي بال موقع المدفوعات قياسي	
+{SYSET33}	إخفاء التحميلات للعميل لسرعه أداء النظام	
+{SYSET34}	رساله تهنئة بالإيميل	
+{SYSET35}	طرق الدفع المتاحه للعملاء	
+{SYSET36}	داخلي	
+{SYSET37}	موقع باي بال برو	
+{SYSET38}	باي بال 	
+{SYSET39}	Netcash 	
+{SYSET40}	حسابات تزامن	
+{SYSET41}	المضيف المحلي	
+{SYSET42}	المضيف البعيد باستخدام RSH	
+{SYSET43}	المضيف لينكس عن بعد	
+{SYSET44}	الحقول الإلزامية التسجيل الذاتي	
+{SYSET45}	الإسم الأول	
+{SYSET46}	إسم العائلة	
+{SYSET47}	العنوان	
+{SYSET48}	المدينة	
+{SYSET49}	الرقم البريدى 	
+{SYSET50}	البلد	
+{SYSET51}	المحافظة
+{SYSET52}	التليفون الارضي 
+{SYSET53}	التليفون المحمول	
+{SYSET54}	البريد الإلكتروني	
+{SYSET55}	متطلبات التسجيل بالاسم	
+{SYSET56}	التسجيل التلقائى للماك ادريس 
+{SYSET57}	يوم التجديد لعملاء الدفع الأجل	
+{SYSET58}	يوم (s)	
+{SYSET59}	تمكين تغيير كلمة المرور (UCP)	
+{SYSET60}	يوم التجديد لمشتركين الدفع الآجل	
+{SYSET61}	Authorize.net	
+{SYSET62}	الإعدادات العامة	
+{SYSET63}	الإخطارات	
+{SYSET64}	الفواتير والمدفوعات	
+{SYSET65}	إعدادات الحساب	
+{SYSET66}	تزامن حساب UNIX	
+{SYSET67}	DPS الدفع اكسبرس	
+{SYSET68}	امكانيه شحن الرصيد (UCP)	
+{SYSET69}	امكانيه شراء سرعه وتجديد الاشتراك (UCP)	
+{SYSET70}	2Checkout	
+{SYSET71}	أبداً	
+{SYSET72}	فقط عند إنتهاء صلاحيتها	
+{SYSET73}	في أي وقت	
+{SYSET74}	مستوى التنبيه التلقائى	
+{SYSET75}	قيمة ثابتة	
+{SYSET76}	في المئة	
+{SYSET77}	ارسال بريد اليكترونى للمدير بتسجيل عميل جديد	
+{SYSET78}	ارسال اميل بتفعيل سرعه جديدة	
+{SYSET79}	ارسال اميل بتجديد الحساب تلقائى	
+{SYSET80}	رساله تهنئه على الموبيل	
+{SYSET81}	الحقول الإلزامية IAS	
+{SYSET82}	البريد الإلكتروني	
+{SYSET83}	رقم التليفون المحمول	
+{SYSET84}	رقم البطاقه القومية	
+{SYSET85}	تنبيه بنتهاء الاشتراك برساله على الموبيل
+{SYSET86}	Payfast	
+{SYSET87}	حسابات IAS تتطلب التحقق SMS	
+{SYSET88}	الصلاحيات المتاحه للتسجيل الذاتى	
+{SYSET89}	بريد اليكترونى واحد لاكثر من حساب
+{SYSET90}	رقم موبيل واحد لاكثر من حساب	
+{SYSET91}	يسمح تسجيل IAS	
+{SYSET92}	اضافه كل شبكة جديدة الى جميع البروفيلات	
+{SYSET93}	إضافة كل مدير جديد لجميع البروفيلات	
+{SYSET94}	العدد الافتراضى للاجهزه التى يمكنها الاتصال
+{SYSET95}	تفعيل برساله على الموبيل
+{SYSET96}	تفعيل البريد الإلكتروني	
+{SYSET97}	متطلبات التسجيل برقم التليفون المحمول	
+{SYSET98}	Self registration default user group
+{SYSET99}	ارسال اخطار بإنتهاء الصلاحية
+{SYSET100}	مرة واحدة فقط
+{SYSET101}	عدة مرات
+{SYSET102}	Captcha تفعيل
+{SYSET103}	Citrus Payments
+{SYSET104}	Disconnect postpaid users at the beginning of billing period
+{SYSET105}	Paytm
+{SYSET106}	إشعار بتجديد الحساب (SMS)
+{SYSET107}	ضريبة المبيعات
+
+// ACP list users		
+		
+{LSTUSR0}	قائمة المشتركين	
+{LSTUSR1}	إسم المستخدم
+{LSTUSR2}	إسم الخدمة	
+{LSTUSR3}	CPE IP	
+{LSTUSR4}	كمية التحميل بالميجا	
+{LSTUSR5}	كمية الرفع بالميجا	
+{LSTUSR6}	إنتهاء	
+{LSTUSR7}	مدة استخدام الانترنت	
+{LSTUSR8}	اخر تسجيل خروج	
+{LSTUSR9}	تعليق	
+{LSTUSR10}	عمل	
+{LSTUSR11}	نشط	
+{LSTUSR12}	انتهى	
+{LSTUSR13}	غير مفعل 	
+{LSTUSR14}	يستخدم الانترنت الان	
+{LSTUSR15}	تمكين	
+{LSTUSR16}	تعطيل	
+{LSTUSR17}	حذف	
+{LSTUSR18}	اجمالي التحميلات بالميجا	
+{LSTUSR19}	CSV Export	
+{LSTUSR20}	مسجل بتاريخ	
+{LSTUSR21}	غير مثبت عليه	
+{LSTUSR22}	الاسم الأول	
+{LSTUSR23}	إسم العائلة	
+{LSTUSR24}	الشركة	
+{LSTUSR25}	عنوان	
+{LSTUSR26}	المدينه	
+{LSTUSR27}	الرقم البريدي 	
+{LSTUSR28}	بلد	
+{LSTUSR29}	المحافظة
+{LSTUSR30}	التليفون الارضي	
+{LSTUSR31}	التليفون المحمول	
+{LSTUSR32}	البريد الإلكتروني	
+{LSTUSR33}	CM MAC	
+{LSTUSR34}	CM IP	
+{LSTUSR35}	قطع	
+{LSTUSR36}	تطبيق	
+{LSTUSR37}	آخر تسجيل خروج	
+		
+// ACP list user groups		
+		
+{LSTUSRGRP0}	مجموعه المشتركين	
+{LSTUSRGRP1}	اسم المجموعة المستخدم	
+{LSTUSRGRP2}	عمل	
+{LSTUSRGRP3}	حذف	
+{LSTUSRGRP4}	وصف	
+		
+// ACP edit user group		
+		
+{EDUSRGRP0}	تعديل مجموعة من المشتركين	
+{EDUSRGRP1}	اسم المجموعة	
+{EDUSRGRP2}	وصف	
+{EDUSRGRP3}	هذه العلامة * تعنى خانه لابد من كتابتها	
+{EDUSRGRP4}	تحديث	
+{EDUSRGRP5}	حذف	
+		
+// ACP new user group		
+		
+{NEWUSRGRP0}	مجموعة مستخدمين جديدة	
+{NEWUSRGRP1}	اسم المجموعة	
+{NEWUSRGRP2}	وصف	
+{NEWUSRGRP3}	هذه العلامة * تعنى خانه لابد من كتابتها	
+{NEWUSRGRP4}	إنشاء مجموعة	
+		
+// ACP confirm delete user group		
+		
+{CFMDELUSRGRP0}	رسالة النظام	
+{CFMDELUSRGRP1}	حذف مجموعة مستخدمين	
+{CFMDELUSRGRP2}	حذف	
+		
+// ACP confirm disconnect user		
+		
+{CFMLOGOUT0}	قطع اتصال المشترك	
+{CFMLOGOUT1}	هل أنت تأكد من فصل المستخدم المحدد؟	
+{CFMLOGOUT2}	فصل الاتصال من السيستم	
+		
+// ACP find users		
+		
+{FNDUSR0}	البحث عن المشتركين	
+{FNDUSR1}	فيلتر البحث عن المشتركين	
+{FNDUSR2}	اسم المستخدم او الماك ادريس	
+{FNDUSR3}	حالة الاشتراك	
+{FNDUSR4}	نوع الخدمة	
+{FNDUSR5}	MAC  CPE	
+{FNDUSR6}	CPE IP	
+{FNDUSR7}	اسم الشركة	
+{FNDUSR8}	رقم التليفون الارضي	
+{FNDUSR9}	رقم الهاتف المحمول	
+{FNDUSR10}	العنوان
+{FNDUSR11}	المدينة	
+{FNDUSR12}	الرقم البريدي 	
+{FNDUSR13}	اسم الخدمة	
+{FNDUSR14}	تعليق	
+{FNDUSR15}	تعديل  حساب عميل	
+{FNDUSR16}	اسم مستخدم او ماك ادريس او رقم الكارت	
+{FNDUSR17}	الكل
+{FNDUSR18}	تمكين	
+{FNDUSR19}	غير مفعل 	
+{FNDUSR20}	اشتراك مسبق الدفع	
+{FNDUSR21}	الدفع الآجل	
+{FNDUSR22}	البريد الإلكتروني	
+{FNDUSR23}	بحث	
+{FNDUSR24}	تعديل 
+{FNDUSR25}	MAC CM	
+{FNDUSR26}	دخول الاكسسات	
+{FNDUSR27}	الإسم الأول	
+{FNDUSR28}	إسم العائلة
+{FNDUSR29}	البريد الإلكتروني	
+{FNDUSR30}	البلد	
+{FNDUSR31}	المحافظة
+{FNDUSR32}	المجموعة	
+{FNDUSR33}	المالك	
+{FNDUSR34}	رقم العقد	
+{FNDUSR35}	نوع الحساب	
+{FNDUSR36}	الكل
+{FNDUSR37}	منتظم	
+{FNDUSR38}	ماك ادريس	
+{FNDUSR39}	DOCSIS	
+{FNDUSR40}	اكسسات الميكروتك	
+{FNDUSR41}	StarOS اكسسات
+{FNDUSR42}	نشط	
+{FNDUSR43}	انتهى	
+{FNDUSR44}	كروت الشحن مسبوقه الدفع	
+{FNDUSR45}	خدمة الوصول الفوري	
+{FNDUSR46}	معلومات الاستخدام	
+{FNDUSR47}	الكل
+{FNDUSR48}	الحاله مستخدمة	
+{FNDUSR49}	الحاله غير مستخدمة	
+{FNDUSR50}	انتهاء العقد	
+{FNDUSR51}	فترة التسجيل	
+{FNDUSR52}	حاله الكارت	
+{FNDUSR53}	الكل
+{FNDUSR54}	كارت مشحون
+{FNDUSR55}	كارت لم يتم شحنه
+		
+// ACP new user		
+		
+{NEWUSR0}	مستخدم جديد	
+{NEWUSR1}	بيانات المستخدم العام	
+{NEWUSR2}	إسم المستخدم او الماك ادريس	
+{NEWUSR3}	تمكين	
+{NEWUSR4}	نوع الحساب	
+{NEWUSR5}	كلمة السر
+{NEWUSR6}	تأكيد كلمة السر
+{NEWUSR7}	MAC CPE	
+{NEWUSR8}	IP ثابت	
+{NEWUSR9}	عدد الاجهزة التى يمكنها الاتصال	
+{NEWUSR10}	إسم الشركة	
+{NEWUSR11}	العنوان	
+{NEWUSR12}	المحافظة
+{NEWUSR13}	الرقم البريدي 	
+{NEWUSR14}	رقم التليفون الارضي	
+{NEWUSR15}	رقم الهاتف المحمول	
+{NEWUSR16}	رقم البطاقه القومية	
+{NEWUSR17}	خدمة	
+{NEWUSR18}	كمية التحميل 	
+{NEWUSR19}	كمية الرفع 	
+{NEWUSR20}	انتهاء الحساب	
+{NEWUSR21}	الوقت المتاح عبر الإنترنت	
+{NEWUSR22}	تعليق	
+{NEWUSR23}	DOCSIS Data	
+{NEWUSR24}	MAC CM	
+{NEWUSR25}	عنوان البريد الإلكتروني	
+{NEWUSR26}	1-32 حرفاً	
+{NEWUSR27}	منتظم	
+{NEWUSR28}	ماك ادريس	
+{NEWUSR29}	1-32 حرفاً	
+{NEWUSR30}	السماح لهذا الماك ادريس فقط	
+{NEWUSR31}	DOCSIS	
+{NEWUSR32}	بايت	
+{NEWUSR33}	YYYY-MM-DD	
+{NEWUSR34}	(HH: MM: SS)	
+{NEWUSR35}	هذه العلامة * تعني خانة لابد من كتابتها	
+{NEWUSR36}	إضافة مستخدم	
+{NEWUSR37}	Mikrotik ACL 	
+{NEWUSR38}	StarOS ACL	
+{NEWUSR39}	اجمالى التحميلات 	
+{NEWUSR40}	الاسم الأول	
+{NEWUSR41}	اسم العائلة
+{NEWUSR42}	بلد	
+{NEWUSR43}	المدينة	
+{NEWUSR44}	الرصيد
+{NEWUSR45}	مجموعة المستخدم	
+{NEWUSR46}	سمات مخصصة RADIUS	
+{NEWUSR47}	IP CM	
+{NEWUSR48}	IP CPE	
+{NEWUSR49}	NAS or DHCP	
+{NEWUSR50}	تجمع IP	
+{NEWUSR51}	رقم العقد	
+{NEWUSR52}	تحديد الموقع الجغرافى	
+{NEWUSR53}	درجة	
+{NEWUSR54}	تاريخ انتهاء العقد	
+{NEWUSR55}	لغة	
+{NEWUSR56}	عرض كلمة المرور
+{NEWUSR57}	توليد كلمة مرور
+{NEWUSR58}	CNIC
+{NEWUSR59}	CNIC page 1
+{NEWUSR60}	CNIC page 2
+
+// ACP edit user		
+		
+{EDUSR0}	تعديل المشترك	
+{EDUSR1}	تمكين	
+{EDUSR2}	كلمة السر
+{EDUSR3}	تأكيد كلمة السر
+{EDUSR4}	MAC CM	
+{EDUSR5}	MAC CPE	
+{EDUSR6}	عدد الاجهزة التى يمكنها الاتصال	
+{EDUSR7}	اسم الشركة	
+{EDUSR8}	عنوان	
+{EDUSR9}	المنطقة او الحي 	
+{EDUSR10}	الرقم البريدي 	
+{EDUSR11}	رقم التليفون الارضي
+{EDUSR12}	رقم الهاتف المحمول	
+{EDUSR13}	رقم البطاقه القومية	
+{EDUSR14}	الخدمة
+{EDUSR15}	كميه التحميل 	
+{EDUSR16}	كميه الرفع 	
+{EDUSR17}	انتهاء الحساب	
+{EDUSR18}	الوقت المتاح عبر الإنترنت	
+{EDUSR19}	الرصيد
+{EDUSR20}	عدد مرات فشل  ادخال كارت الشحن	
+{EDUSR21}	تعليق	
+{EDUSR22}	اسم المستخدم	
+{EDUSR23}	نوع الحساب	
+{EDUSR24}	حالة الاشتراك	
+{EDUSR25}	مجموعة كروت 	
+{EDUSR26}	تم انشاء العميل بتاريخ	
+{EDUSR27}	تم انشاء العميل بواسطة	
+{EDUSR28}	حالة الاتصال	
+{EDUSR29}	الأيبي الحالي	
+{EDUSR30}	تسجيل الخروج الماضي	
+{EDUSR31}	تغيير الخدمة
+{EDUSR32}	اسم السرعه الجديدة	
+{EDUSR33}	البيانات DOCSIS	
+{EDUSR34}	مجموعة المستخدم	
+{EDUSR35}	عنوان البريد الإلكتروني	
+{EDUSR36}	1-32 حرفاً 
+{EDUSR37}	السماح لهذا الماك ادريس فقط	
+{EDUSR38}	سمات مخصصة RADIUS	
+{EDUSR39}	بايت	
+{EDUSR40}	YYYY-MM-DD	
+{EDUSR41}	(HH: MM: SS)	
+{EDUSR42}	هذه العلامة * تعنى خانه لابد من كتابتها	
+{EDUSR43}	تحديث حساب العميل	
+{EDUSR44}	اجمالى التحميلات 	
+{EDUSR45}	الإسم الأول	
+{EDUSR46}	إسم العائلة
+{EDUSR47}	البلد	
+{EDUSR48}	المحافظة
+{EDUSR49}	مواعيد	
+{EDUSR50}	تم ارسال تنبيه بالإيميل	
+{EDUSR51}	ماك ادريس المشترك	
+{EDUSR52}	الشبكة
+{EDUSR53}	حساب رمز التحقق	
+{EDUSR54}	التحقق	
+{EDUSR55}	عدد مرات فشل رمز التحقق:	
+{EDUSR56}	رساله للموبيل للتحقق منو
+{EDUSR57}	صاحب الحساب	
+{EDUSR58}	رساله للموبيل للتحقق منه
+{EDUSR59}	تغيير كلمة السر
+{EDUSR60}	IP CM	
+{EDUSR61}	IP  CPE	
+{EDUSR62}	NAS or DHCP	
+{EDUSR63}	IP	
+{EDUSR64}	ثابت IP	
+{EDUSR65}	SNR 
+{EDUSR66}	CM TX 
+{EDUSR67}	CM RX 
+{EDUSR68}	CM 
+{EDUSR69}	CM الوقت
+{EDUSR70}	رقم العقد	
+{EDUSR71}	رساله على الموبيل لتفعيل كلمة السر	
+{EDUSR72}	CPE MAC	
+{EDUSR73}	CPE IP	
+{EDUSR74}	نظرة عامة حول حساب	
+{EDUSR75}	تفاصيل DOCSIS	
+{EDUSR76}	قناة المنبع	
+{EDUSR77}	تفاصيل واي فاي	
+{EDUSR78}	جهاز الاشارة 	
+{EDUSR79}	مستوى إشارة	
+{EDUSR80}	SNR	
+{EDUSR81}	cQ	
+{EDUSR82}	تحديد الموقع الجغرافى	
+{EDUSR83}	درجة.	
+{EDUSR84}	CMTS	
+{EDUSR85}	SNR 
+{EDUSR86}	تنبيه عبر البريد الإلكتروني	
+{EDUSR87}	رسائل موبيل للتنبيه	
+{EDUSR88}	أعلام	
+{EDUSR89}	تاريخ انتهاء العقد	
+{EDUSR90}	لغة	
+{EDUSR91}	تنبيه الفاتورة	
+{EDUSR92}	الباقة اليومية المتاحة
+{EDUSR93}	معدل الداونلود
+{EDUSR94}	معدل الابلود
+{EDUSR95}	اجمالي التحميل
+{EDUSR96}	اجمالي وقت الاتصال
+{EDUSR97}	عرض كلمة المرور
+{EDUSR98}	توليد كلمة مرور
+{EDUSR99}	CNIC
+{EDUSR100}	CNIC page 1
+{EDUSR101}	CNIC page 2
+{EDUSR102}	إزالة
+
+// ACP add credits		
+		
+{ADDCRED0}	دفع الفاتورة	
+{ADDCRED1}	اسم المستخدم	
+{ADDCRED2}	اسم الخدمة الحالية 	
+{ADDCRED3}	الدونلود المتاح  0-يعنى غير محدود 	
+{ADDCRED4}	فتره الخدمة المتاحه 	
+{ADDCRED5}	وضع الدفع 	
+{ADDCRED6}	طريقة الدفع	
+{ADDCRED7}	سعر الاشتراك	
+{ADDCRED8}	كمية	
+{ADDCRED9}	صافي السعر	
+{ADDCRED10}	السعر الإجمالي	
+{ADDCRED11}	ضريبة	
+{ADDCRED12}	ملاحظه على الفاتورة	
+{ADDCRED13}	تعليق على العميل	
+{ADDCRED14}	ميجا بايت
+{ADDCRED15}	الوضع الطبيعى للاشتراك	
+{ADDCRED16}	وضع الاضافات فقط	
+{ADDCRED17}	نقدي	
+{ADDCRED18}	تحويل على الانترنت	
+{ADDCRED19}	قفل سعر الوحدة	
+{ADDCRED20}	التالي	
+{ADDCRED21}	تحذير!	
+{ADDCRED22}	يتم تسجيل كل فاتوره تقوم بها !	
+{ADDCRED23}	قائمة الفواتير	
+{ADDCRED24}	تقارير استخدام العميل	
+{ADDCRED25}	هل انت متأكد ان البيانات صحيحة؟	
+{ADDCRED26}	الابلود المتاح  0-يعنى غير محدود 	
+{ADDCRED27}	مجموع التحميل المتاح  0-يعنى غير محدود	
+{ADDCRED28}	الوقت على الانترنت المتاح  0-يعنى غير محدود	
+{ADDCRED29}	قفل الكمية
+		
+// ACP confirm add credits		
+		
+{CFMADDCRED0}	تأكيد دفع الفاتورة	
+{CFMADDCRED1}	اسم المستخدم	
+{CFMADDCRED2}	اسم الخدمة الحالية	
+{CFMADDCRED3}	طريقة الدفع المحددة	
+{CFMADDCRED4}	الدونلود المتاح  0-يعنى غير محدود	
+{CFMADDCRED5}	فتره الاشتراك المتاحه	
+{CFMADDCRED6}	سعر الاشتراك	
+{CFMADDCRED7}	الكمية	
+{CFMADDCRED8}	السعر الصافي	
+{CFMADDCRED9}	السعر الإجمالي	
+{CFMADDCRED10}	ضريبة	
+{CFMADDCRED11}	بيانات إضافية	
+{CFMADDCRED12}	تاريخ انتهاء الصلاحية الجديد	
+{CFMADDCRED13}	الدونلود المضاف 0-يعنى لا يوجد	
+{CFMADDCRED14}	الوقت المضاف 0- يعنى لا يوجد	
+{CFMADDCRED15}	YYYY-MM-DD	
+{CFMADDCRED16}	MB	
+{CFMADDCRED17}	(ساعة)	
+{CFMADDCRED18}	تأكيد و أنهاء
+{CFMADDCRED19}	هام جدا اضغط مرة واحدة فقط وانتظر التفعيل!	
+{CFMADDCRED20}	هل أنت متأكد من دفع الفاتوره للعميل؟	
+{CFMADDCRED21}	الابلود المتاح  0-يعنى غير محدود 	
+{CFMADDCRED22}	مجموع التحميل المتاح  0-يعنى غير محدود 	
+{CFMADDCRED23}	الابلود المضاف 0- يعنى لا يوجد	
+{CFMADDCRED24}	اجمالى التحميل المضاف 0- يعنى لا يوجد	
+{CFMADDCRED25}	الوقت على الانترنت المتاح 0-يعنى غير محدود	
+		
+// ACP + UCP credits added		
+		
+{CRDADDED0}	تم دفع الفاتوره للعميل بنجاح	
+{CRDADDED1}	تم دفع الفاتوره للعميل بنجاح	
+{CRDADDED2}	طباعة الفاتوره	
+		
+// ACP add money deposit		
+		
+{ADDMONEY0}	اضافة رصيد للعميل	
+{ADDMONEY1}	اسم المستخدم	
+{ADDMONEY2}	طريقة الدفع	
+{ADDMONEY3}	السعر الإجمالي	
+{ADDMONEY4}	ملاحظه على الفاتورة	
+{ADDMONEY5}	تعليق الداخلي	
+{ADDMONEY6}	استخدم السالب لألغاء فاتوره وليس مسحها	
+{ADDMONEY7}	تأكيد و أنهاء
+{ADDMONEY8}	تحذير!	
+{ADDMONEY9}	انتبه جيدا يتم حفظ كل ما تقوم بيه!	
+{ADDMONEY10}	قائمة الفواتير	
+{ADDMONEY11}	تقارير استخدام العميل	
+{ADDMONEY12}	كاش	
+{ADDMONEY13}	تحويل على الانترنت	
+{ADDMONEY14}	هل أنت متأكد من اضافة المبلغ؟
+		
+// ACP postpaid billing		
+		
+{POSTPBILL0}	الدفع الآجل الفواتير	
+{POSTPBILL1}	اسم المستخدم	
+{POSTPBILL2}	من	
+{POSTPBILL3}	إلى	
+{POSTPBILL4}	اسم الخدمة	
+{POSTPBILL5}	التالي>	
+{POSTPBILL6}	قائمة الفواتير	
+{POSTPBILL7}	تقارير استخدام العميل	
+{POSTPBILL8}	YYYY-MM-DD	
+		
+// ACP confirm postpaid billing		
+		
+{CFMPOSTPBL0}	تأكيد الفواتير آجلة الدفع	
+{CFMPOSTPBL1}	اسم المستخدم	
+{CFMPOSTPBL2}	من تاريخ	
+{CFMPOSTPBL3}	الى تاريخ	
+{CFMPOSTPBL4}	تقارير استخدام العميل	
+{CFMPOSTPBL5}	البروفيلات المستخدمة في حساب السعر	
+{CFMPOSTPBL6}	الوقت على الانترنت	
+{CFMPOSTPBL7}	اسم الخدمة	
+{CFMPOSTPBL8}	صافي سعر الوحدة	
+{CFMPOSTPBL9}	صافي سعر الوحدة إضافية	
+{CFMPOSTPBL10}	صافي سعر إضافي	
+{CFMPOSTPBL11}	طريقة الدفع	
+{CFMPOSTPBL12}	وصف الخدمة
+{CFMPOSTPBL13}	صافي السعر	
+{CFMPOSTPBL14}	السعر الإجمالي	
+{CFMPOSTPBL15}	ضريبة	
+{CFMPOSTPBL16}	ملاحظه على الفاتورة	
+{CFMPOSTPBL17}	تعليق الداخلي	
+{CFMPOSTPBL18}	استخدام القيمة السالبة لإلغاء فاتورة	
+{CFMPOSTPBL19}	تأكيد وأنهاء	
+{CFMPOSTPBL20}	هذه العلامة * تعنى خانه لابد من كتابتها	
+{CFMPOSTPBL21}	كاش	
+{CFMPOSTPBL22}	التحويل على الانترنت	
+{CFMPOSTPBL23}	هل أنت متأكد من إنشاء الفاتورة؟	
+{CFMPOSTPBL24}	قائمة الفواتير	
+		
+// ACP postpaid invoice created		
+		
+{POSTPINVOK0}	الدفع الآجل الفواتير	
+{POSTPINVOK1}	فاتورة الدفع الآجل خلقت بنجاح	
+{POSTPINVOK2}	فاتورة طباعة	
+		
+// ACP + UCP traffic report		
+		
+{TRAFFREP0}	تقارير استخدام العميل	
+{TRAFFREP1}	تاريخ	
+{TRAFFREP2}	اسم المستخدم	
+{TRAFFREP3}	الوقت على الانترنت	
+{TRAFFREP4}	دونلود	
+{TRAFFREP5}	ابلود
+{TRAFFREP6}	مجموع	
+
+// ACP daily traffic report
+
+{TRAFFREPDLY0}	تقرير الاستعمال اليومي
+{TRAFFREPDLY1}	التريخ
+{TRAFFREPDLY2}	اسم المستخدم
+{TRAFFREPDLY3}	زمن الإتصال
+{TRAFFREPDLY4}	الداونلود
+{TRAFFREPDLY5}	الابلود
+{TRAFFREPDLY6}	الاجمالي
+
+// ACP + UCP detailed traffic report		
+		
+{DETTRAFFREP0}	تقرير مفصل المرور	
+{DETTRAFFREP1}	إسم المستخدم	
+{DETTRAFFREP2}	سجل دخول فى 	
+{DETTRAFFREP3}	سجل خروج فى	
+{DETTRAFFREP4}	الوقت على الانترنت	
+{DETTRAFFREP5}	دونلود	
+{DETTRAFFREP6}	أبلود
+{DETTRAFFREP7}	 IP	
+{DETTRAFFREP8}	ماك ادريس المشترك
+{DETTRAFFREP9}	جلسة عمل نشطة	
+{DETTRAFFREP10}	المجاميع	
+{DETTRAFFREP11}	مجموع	
+{DETTRAFFREP12}	الشبكة
+{DETTRAFFREP13}	مجاني
+{DETTRAFFREP14}	الوقت المجاني المتاح على الانترنت<BR> 
+{DETTRAFFREP15}	الدونلود المتاح المجاني	
+{DETTRAFFREP16}	الابلود المتاح المجاني <BR>	
+{DETTRAFFREP17}	مجموع التحميل المتاح المجاني<BR> 
+{DETTRAFFREP18}	اكسس	
+		
+// ACP + UCP list invoices		
+		
+{LSTINV0}	قائمة الفواتير	
+{LSTINV1}	فاتورة عدد	
+{LSTINV2}	تاريخ	
+{LSTINV3}	الخدمة : سرعه او كارت	
+{LSTINV4}	التي أنشأتها	
+{LSTINV5}	عميل 	
+{LSTINV6}	السعر	
+{LSTINV7}	ألرصيد الحالى	
+{LSTINV8}	غير موجود	
+{LSTINV9}	المهلة الانترنت	
+{LSTINV10}	حدث	
+{LSTINV11}	تعليق	
+{LSTINV12}	المعاملات المنجزة	
+{LSTINV13}	في انتظار المعاملات	
+{LSTINV14}	المجموع	
+{LSTINV15}	التحويلات الداخلية	
+{LSTINV16}	فاتورة غير مدفوعة	
+{LSTINV17}	انتهت فترة سماح	
+{LSTINV18}	<ب> C </ B> - نقدي، <ب> T </ B> - نقل البنك، <ب> O </ B> - الدفع عبر الإنترنت، <ب> أنا </ B> - نقل الداخلي، <ب> P </ B> - بطاقة مسبقة الدفع	
+{LSTINV19}	المتاح لك من <BR> الدونلود / الابلود / المجموع	
+{LSTINV20}	الوقت  <BR> المضاف
+{LSTINV21}	الايام <BR> المضافه
+{LSTINV22}	h	
+{LSTINV23}	كروت الشحن	
+{LSTINV24}	أيام / تاريخ انتهاء الصلاحية	
+{LSTINV25}	تم اضافه <BR> الدونلود / الابلود / المجموع	
+{LSTINV26}	الوقت  <BR> المتاح لك على الانترنت	
+{LSTINV27}	تاريخ انتهاء الاشتراك	
+{LSTINV28}	<BR> ساعات أضاف	
+{LSTINV29}	يوم <BR> تم اضافه	
+{LSTINV30}	نوع. <BR> الجرد	
+{LSTINV31}	ملخص الفواتير
+		
+// ACP edit invoice		
+		
+{EDITINV0}	 تعديل الفاتورة	
+{EDITINV1}	بيانات الفاتورة	
+{EDITINV2}	رقم الفاتورة	
+{EDITINV3}	تاريخ الفاتورة	
+{EDITINV4}	خيار الدفع	
+{EDITINV5}	طريقة الدفع	
+{EDITINV6}	وصف	
+{EDITINV7}	سعر الوحدة	
+{EDITINV8}	كمية	
+{EDITINV9}	السعر	
+{EDITINV10}	نسبة الضريبه	
+{EDITINV11}	ضريبة	
+{EDITINV12}	السعر الإجمالي	
+{EDITINV13}	دفع الانتهاء على	
+{EDITINV14}	تعليق	
+{EDITINV15}	بيانات الائتمان	
+{EDITINV16}	اسم المدير	
+{EDITINV17}	اسم المستخدم	
+{EDITINV18}	وأضاف تحميل حركة المرور	
+{EDITINV19}	كميه التحميل بالميجا جديد	
+{EDITINV20}	كميه الرفع بالميجا جديد	
+{EDITINV21}	الوقت المحتسب بدل الضائع	
+{EDITINV22}	المهلة الانترنت	
+{EDITINV23}	وأضاف أيام	
+{EDITINV24}	تاريخ انتهاء الصلاحية	
+{EDITINV25}	تحديث فاتورة	
+{EDITINV26}	فاتورة طباعة	
+{EDITINV27}	الرصيد	
+{EDITINV28}	وأضاف المرور تحميل	
+{EDITINV29}	وأضاف إجمالي حركة	
+{EDITINV30}	الحد الكلي جديد	
+{EDITINV31}	بوابة رقم المعاملات	
+{EDITINV32}	الاسم الكامل	
+{EDITINV33}	عنوان	
+{EDITINV34}	المنطقه او الحى 	
+{EDITINV35}	الرمز البريدي	
+{EDITINV36}	بلد	
+{EDITINV37}	المدينه	
+{EDITINV38}	YYYY-MM-DD	
+		
+// ACP change service type		
+		
+{CHGSRVADM0}	تغيير السرعه	
+{CHGSRVADM1}	الخدمة الحالية	
+{CHGSRVADM2}	اختيار خدمة جديدة	
+{CHGSRVADM3}	تأكيد وأنهاء	
+{CHGSRVADM4}	تغيرها فى تاريخ
+		
+// ACP service change history		
+		
+{SRVHIST0}	تغيير التاريخ الخدمة	
+{SRVHIST1}	قدم الطلب بتاريخ	
+{SRVHIST2}	بناء على طلب	
+{SRVHIST3}	للعميل	
+{SRVHIST4}	تاريخ
+{SRVHIST5}	اسم الخدمة	
+{SRVHIST6}	الحالة	
+		
+// ACP find invoices		
+		
+{FNDINV0}	البحث عن الفواتير	
+{FNDINV1}	من تاريخ	
+{FNDINV2}	حتى الآن	
+{FNDINV3}	فاتوره تبدء برقم	
+{FNDINV4}	تم انشاءها من 
+{FNDINV5}	تم انشائها ل 	
+{FNDINV6}	نوع الدفع	
+{FNDINV7}	بحث	
+{FNDINV8}	كل الحركات المالية	
+{FNDINV9}	كاش	
+{FNDINV10}	التحويل المصرفي	
+{FNDINV11}	المدفوعات الداخليه 	
+{FNDINV12}	عبوة الائتمان مع بطاقة	
+{FNDINV13}	(بدون اختصار)	
+{FNDINV14}	باي بال المدفوعات موقع برو	
+{FNDINV15}	باي بال عبر عن الخروج	
+{FNDINV16}	الاى دى للمدفوعات الاونلاين	
+{FNDINV17}	تعليق	
+{FNDINV18}	YYYY-MM-DD	
+{FNDINV19}	معاملات	
+{FNDINV20}	الفواتير فقط	
+{FNDINV21}	المشتركين	
+{FNDINV22}	مديرين	
+{FNDINV23}	باي بال 	
+{FNDINV24}	Netcash	
+{FNDINV25}	Authorize.Net	
+{FNDINV26}	فاتوره تنتهى برقم	
+{FNDINV27}	نوع	
+{FNDINV28}	DPS الدفع اكسبرس	
+{FNDINV29}	2Checkout	
+{FNDINV30}	الدفع الأجل	
+{FNDINV31}	الكل
+{FNDINV32}	غير مدفوع	
+{FNDINV33}	بنتهاء فتره السماح	
+{FNDINV34}	صاحب الحساب	
+{FNDINV35}	Payfast	
+{FNDINV36}	Citrus Payments
+{FNDINV37}	Paytm
+
+// UCP buy service		
+		
+{BUYSRV0}	لابد ان يكون لديك رصيد لكى يمكنك اعادة تشغيل الاشتراك مرة اخرى برجاء شحن رصيدك بكروت الشحن
+{BUYSRV1}	الخدمة  الحالية	
+{BUYSRV2}	الدونلود المتاح 0-يعنى غير محدود 	
+{BUYSRV3}	مدة الاشتراك -0 يعنى لا يوجد مدة اشتراك 	
+{BUYSRV4}	سعر هذه الخدمة	
+{BUYSRV5}	عدد الخدمات التى تريدها -اكتب 1 لشراء خدمة واحده -وهكذا
+{BUYSRV6}	هذه العلامة * تعنى خانه لابد من كتابتها	
+{BUYSRV7}	التالي>	
+{BUYSRV8}	الابلود المتاح 0-يعنى غير محدود 	
+{BUYSRV9}	المجموع الكلى للتحميل 0-يعنى غير محدود  	
+{BUYSRV10}	الوقت المتاح 0-يعنى غير محدود 	
+		
+// ACP card generator		
+		
+{CARDGEN0}	انشاء الكروت 
+{CARDGEN1}	كمية	
+{CARDGEN2}	سر	
+{CARDGEN3}	سعر الكارت	
+{CARDGEN4}	انتهاء الكارت بتاريخ 	
+{CARDGEN5}	نوع الكارت
+{CARDGEN6}	الخدمه المرتبطة بالكارت	
+{CARDGEN7}	كميه التحميل بالميجا	
+{CARDGEN8}	كميه الرفع بالميجا	
+{CARDGEN9}	الوقت المتاح على الانترنت	
+{CARDGEN10}	انتهاء	
+{CARDGEN11}	الوقت المتاح من تفعيل الكارت
+{CARDGEN12}	الحقول إلزامية	
+{CARDGEN13}	انشاء الكروت 	
+{CARDGEN14}	الكروت
+{CARDGEN15}	(4-16 حرفا)	
+{CARDGEN16}	YYYY-MM-DD	
+{CARDGEN17}	الكروت المدفوعة مسبقا	
+{CARDGEN18}	كروت شحن رصيد	
+{CARDGEN19}	MB	
+{CARDGEN20}	ساعات	
+{CARDGEN21}	حتى تاريخ الصلاحيه المحدد 	
+{CARDGEN22}	تحسب من تفعيل الكارت
+{CARDGEN23}	أيام	
+{CARDGEN24}	اجمالى التحميلات بالميجا	
+{CARDGEN25}	انتهاء	
+{CARDGEN26}	تفعيل الكارت برساله على الموبيل	
+{CARDGEN27}	طول رقم الكارت	
+{CARDGEN28}	طول كلمة السر	
+{CARDGEN29}	عدد الاجهزه التى يمكنها الاتصال	
+{CARDGEN30}	حرف او رقم يبدء الكارت بيه	
+{CARDGEN31}	مجموعة المشتركين	
+		
+// ACP card statistics		
+		
+{CARDSTAT0}	إحصاءات بطاقة	
+{CARDSTAT1}	الإحصاءات العامة	
+{CARDSTAT2}	عدد مجموعات وتسلسل الكروت التى انشئت
+{CARDSTAT3}	عدد الكروت التى تم انشائها
+{CARDSTAT4}	احصائات كروت شحن الرصيد	
+{CARDSTAT5}	عدد المجموعات والتسلسل للكروت التى انشئت
+{CARDSTAT6}	عدد الكروت التى انشئت
+{CARDSTAT7}	اجمالى قيمة الكروت	
+{CARDSTAT8}	كروت غير مشحونه	
+{CARDSTAT9}	كروت مشحونه بالفعل
+{CARDSTAT10}	قيمة مجموعه الكروت غير المشحونه	
+{CARDSTAT11}	قيمة مجموع الكروت المشحونه	
+{CARDSTAT12}	احصائات كروت الشحن المسبقه الدفع	
+{CARDSTAT13}	عدد المجموعات والتسلسل للكروت التى انشئت
+{CARDSTAT14}	عدد الكروت التى انشئت
+{CARDSTAT15}	اجمالى قيمة الكروت 	
+		
+// ACP postpaid batch billing		
+		
+{BATCHBILL0}	انشاء فواتير آجلة الدفع	
+{BATCHBILL1}	من تاريخ	
+{BATCHBILL2}	حتى الآن	
+{BATCHBILL3}	التالي>	
+{BATCHBILL4}	حدد فترة الفاتورة	
+{BATCHBILL5}	YYYY-MM-DD	
+{BATCHBILL6}	نوع الدفع	
+{BATCHBILL7}	النقد	
+{BATCHBILL8}	التحويل المصرفي	
+{BATCHBILL9}	مجموعة المستخدم	
+{BATCHBILL10}	تشمل الحسابات غير النشطة	
+{BATCHBILL11}	تشمل حسابات معطلة	
+		
+// ACP confirm batch billing		
+		
+{CFMBATCHBILL0}	تأكيد انشاء الفواتير	
+{CFMBATCHBILL1}	تأكيد وأنهاء
+{CFMBATCHBILL2}	انشاء فواتير آجلة الدفع	
+{CFMBATCHBILL3}	انت الان تقوم بأنشاء فواتير اجله الدفع!	
+{CFMBATCHBILL4}	من تاريخ	
+{CFMBATCHBILL5}	حتى الآن	
+{CFMBATCHBILL6}	خدمة	
+{CFMBATCHBILL7}	مجموعة المستخدم	
+{CFMBATCHBILL8}	تشمل الصفر الفواتير بأسعار	
+{CFMBATCHBILL9}	تشمل حسابات معطلة	
+		
+// UCP change service type		
+		
+{CHGSRVUSR0}	تغيير الخدمة	
+{CHGSRVUSR1}	الخدمة الحالية	
+{CHGSRVUSR2}	اختيار خدمة جديدة
+{CHGSRVUSR3}	التالي>	
+		
+// UCP select paymode		
+		
+{SELPM0}	حدد طريقة الدفع	
+{SELPM1}	أنت على وشك شراء الخدمة الاتيه	
+{SELPM2}	اسم الخدمة	
+{SELPM3}	عدد الخدمات 	
+{SELPM4}	اجمالى السعر	
+{SELPM5}	التالي>	
+{SELPM6}	وسائل الدفع المتاحة	
+{SELPM7}	بطاقة إئتمان	
+{SELPM8}	باي بال	
+{SELPM9}	داخلي	
+		
+// UCP cancel service change		
+		
+{CFMCCLCHGSVC0}	إلغاء تغير الخدمة	
+{CFMCCLCHGSVC1}	أنت على وشك إلغاء تغيير الخدمة	
+{CFMCCLCHGSVC2}	إلغاء تغيير الخدمة	
+		
+// UCP confirm service change		
+		
+{CFMCHGSVC0}	تأكيد تغير الخدمة	
+{CFMCHGSVC1}	أنت على وشك تغيير الخدمة الحالية	
+{CFMCHGSVC2}	أسم الخدمة الجديدة 	
+{CFMCHGSVC3}	تاريخ الطلب	
+{CFMCHGSVC4}	من المقرر أن التاريخ	
+{CFMCHGSVC5}	تأكيد وأنهاء	
+		
+// ACP confirm delete manager		
+		
+{CFMDELMAN0}	رسالة النظام	
+{CFMDELMAN1}	حذف مدير	
+{CFMDELMAN2}	حذف مدير	
+		
+// ACP confirm delete service		
+		
+{CFMDELSVC0}	رسالة النظام	
+{CFMDELSVC1}	حذف الخدمة	
+{CFMDELSVC2}	حذف الخدمة	
+		
+// ACP confirm delete IAS		
+		
+{CFMDELIAS0}	رسالة النظام	
+{CFMDELIAS1}	حذف قالب IAS	
+{CFMDELIAS2}	حذف	
+		
+// ACP confirm delete user		
+		
+{CFMDELUSR0}	رسالة النظام	
+{CFMDELUSR1}	حذف المستخدم	
+{CFMDELUSR2}	حذف المستخدم	
+		
+// ACP confirm generate cards		
+		
+{CFMCARDGEN0}	تأكيد انشاء الكروت
+{CFMCARDGEN1}	انت على وشك انشاء عدد 	
+{CFMCARDGEN2}	كروت  شحن	
+{CFMCARDGEN3}	بيانات الكروت	
+{CFMCARDGEN4}	نوع الكارت
+{CFMCARDGEN5}	سعر الكارت	
+{CFMCARDGEN6}	انتهاء صلاحيه شحن الكارت 	
+{CFMCARDGEN7}	بيانات الخدمة والبروفيل
+{CFMCARDGEN8}	اسم البروفيل
+{CFMCARDGEN9}	الدونلود المتاح 0-يعنى غير محدود	
+{CFMCARDGEN10}	الابلود المتاح 0-يعنى غير محدود	
+{CFMCARDGEN11}	الوقت المتاح 0-يعنى غير محدود	
+{CFMCARDGEN12}	انتهاء	
+{CFMCARDGEN13}	هل انت متأكد من انشاء هذه الكروت؟	
+{CFMCARDGEN14}	انشاء الكروت
+{CFMCARDGEN15}	تحذير مهم جدا اضغط مرة واحدة فقط وانتظر التفعيل!	
+{CFMCARDGEN16}	اجمالى التحميل المتاح 0-يعنى غير محدود 	
+{CFMCARDGEN17}	مجموعة المشتركين	
+		
+// ACP list managers		
+		
+{LSTMNGR0}	قائمة المدراء
+{LSTMNGR1}	اسم المدير	
+{LSTMNGR2}	الاسم الأول	
+{LSTMNGR3}	الرصيد	
+{LSTMNGR4}	تعليق	
+{LSTMNGR5}	عمل	
+{LSTMNGR6}	نشط	
+{LSTMNGR7}	موقوف	
+{LSTMNGR8}	الكل
+{LSTMNGR9}	تمكين	
+{LSTMNGR10}	تعطيل	
+{LSTMNGR11}	حذف	
+{LSTMNGR12}	اسم العائلة	
+		
+// ACP list NAS		
+		
+{LSTNAS0}	قائمة الشبكات 	
+{LSTNAS1}	اسم الشبكة	
+{LSTNAS2}	IP	
+{LSTNAS3}	نوع	
+{LSTNAS4}	وصف	
+{LSTNAS5}	عمل	
+{LSTNAS6}	حذف	
+		
+// ACP list AP		
+		
+{LSTAP0}	قائمة الاكسسات	
+{LSTAP1}	اسم	
+{LSTAP2}	IP	
+{LSTAP3}	وضع الاكسس	
+{LSTAP4}	وصف	
+{LSTAP5}	عمل	
+{LSTAP6}	تمكين	
+{LSTAP7}	تعطيل	
+{LSTAP8}	حذف	
+{LSTAP9}	تمكين	
+{LSTAP10}	غير مفعل 	
+		
+// ACP NEW AP		
+		
+{NEWAP0}	اضافه اكسس جديدة	
+{NEWAP1}	تمكين	
+{NEWAP2}	اسم	
+{NEWAP3}	IP	
+{NEWAP4}	وضع الاكسس	
+{NEWAP5}	SNMP	
+{NEWAP6}	API ميكروتك	
+{NEWAP7}	SNMP community		
+{NEWAP8}	API اسم المستخدم	
+{NEWAP9}	API كلمة السر	
+{NEWAP10}	وصف	
+{NEWAP11}	هذه العلامة * تعنى خانه لابد من كتابتها	
+{NEWAP12}	قم بالحفظ 
+{NEWAP13}	SNMP (UBNT 5+)
+		
+// ACP edit AP		
+		
+{EDITAP0}	تعديل اكسس 	
+{EDITAP1}	تمكين	
+{EDITAP2}	اسم	
+{EDITAP3}	IP	
+{EDITAP4}	وضع الاكسس	
+{EDITAP5}	SNMP	
+{EDITAP6}	API ميكروتك	
+{EDITAP7}	SNMP community	
+{EDITAP8}	API اسم المستخدم	
+{EDITAP9}	API كلمة السر	
+{EDITAP10}	وصف	
+{EDITAP11}	هذه العلامة * تعنى خانه لابد من كتابتها	
+{EDITAP12}	تحديث	
+{EDITAP13}	حذف	
+{EDITAP14}	SNMP (UBNT 5+)
+		
+// ACP confirm delete AP		
+		
+{CFMDELAP0}	رسالة النظام	
+{CFMDELAP1}	الأكسس حذف	
+{CFMDELAP2}	ألاكسس حذف	
+		
+// ACP list IP pools		
+		
+{LSTPOOL0}	مجموعات الايبيهات 	
+{LSTPOOL1}	اسم البوله	
+{LSTPOOL2}	بدايه الاى بى	
+{LSTPOOL3}	نهايه الاى بى 	
+{LSTPOOL4}	ip التالى	
+{LSTPOOL5}	وصف	
+{LSTPOOL6}	عمل	
+{LSTPOOL7}	حذف	
+{LSTPOOL8}	نوع	
+		
+// ACP list CMTS		
+		
+{LSTCMTS0}	قائمة CMTS	
+{LSTCMTS1}	حدث
+{LSTCMTS2}	حذف	
+{LSTCMTS3}	اسم	
+{LSTCMTS4}	IP	
+{LSTCMTS5}	مجتمع	
+{LSTCMTS6}	وصف	
+		
+// ACP list services		
+		
+{LSTSRV0}	قائمة البروفيلات	
+{LSTSRV1}	اسم الخدمة	
+{LSTSRV2}	السعر الإجمالي	
+{LSTSRV3}	IP	
+{LSTSRV4}	سرعه التصفح <BR> (كيلوبت في الثانية)	
+{LSTSRV5}	سرعه الدونلود <BR> (كيلوبت في الثانية)	
+{LSTSRV6}	اجمالى الدونلود	
+{LSTSRV7}	اجمالى الابلود
+{LSTSRV8}	الانتهاء بالتاريخ	
+{LSTSRV9}	الانتهاء بالوقت 	
+{LSTSRV10}	حدث
+{LSTSRV11}	نشط	
+{LSTSRV12}	غير مفعل 	
+{LSTSRV13}	تمكين	
+{LSTSRV14}	تعطيل	
+{LSTSRV15}	حذف	
+{LSTSRV16}	اجمالى التحميل 	
+{LSTSRV17}	الخدمة التاليه لمن انتهى اشتراكه	
+{LSTSRV18}	دونلود سيسكو
+{LSTSRV19}	ابلود سيسكو
+{LSTSRV20}	الخدمة اليوميه التاليه	
+{LSTSRV21}	الخدمة التاليه للمفصول عنهم
+		
+// ACP list small service history		
+		
+{LSTSRVHISTSM0}	البروفيلات المستعملة	
+{LSTSRVHISTSM1}	تاريخ	
+{LSTSRVHISTSM2}	اسم الخدمة	
+{LSTSRVHISTSM3}	من	
+{LSTSRVHISTSM4}	لآخر	
+{LSTSRVHISTSM5}	مجموع الدونلود <BR> / الدونلود المضاف	
+{LSTSRVHISTSM6}	إجمالي الابلود <BR> / الابلود المضاف	
+{LSTSRVHISTSM7}	الوقت على الانترنت	
+{LSTSRVHISTSM8}	صافي السعر	
+{LSTSRVHISTSM9}		الضريبة
+{LSTSRVHISTSM10}	السعر
+		
+// ACP list card series		
+		
+{LSTCARDSER0}	كروت الشحن 	
+{LSTCARDSER1}	مجموعه كروت
+{LSTCARDSER2}	نوع الكارت
+{LSTCARDSER3}	انشئت  بتاريخ
+{LSTCARDSER4}	انتهاء صلاحيه الشحن 	
+{LSTCARDSER5}	سعر الكارت <BR> 
+{LSTCARDSER6}	كمية	
+{LSTCARDSER7}	اسم الخدمة	
+{LSTCARDSER8}	كميه التحميل بالميجا <BR> (MB)	
+{LSTCARDSER9}	كميه الرفع بالميجا <BR> (MB)	
+{LSTCARDSER10}	الوقت على الانترنت <BR> 
+{LSTCARDSER11}	الوقت المتاح <br> من تفعيل الكارت	
+{LSTCARDSER12}	CSV,XML Export	
+{LSTCARDSER13}	عمل	
+{LSTCARDSER14}	تنشيط الجميع	
+{LSTCARDSER15}	الغاء الجميع	
+{LSTCARDSER16}	إلغاء جزئيا	
+{LSTCARDSER17}	الغاء مجموعه كروت 	
+{LSTCARDSER18}	تفعيل الكروت	
+{LSTCARDSER19}	حذف الكروت
+{LSTCARDSER20}	إجمالي التحميل <BR> (MB)	
+{LSTCARDSER21}	CSV	
+{LSTCARDSER22}	PDF,XML Export
+{LSTCARDSER23}	PDF	
+		
+// ACP list refill cards		
+		
+{LSTRFL0}	كروت شحن الرصيد	
+{LSTRFL1}	عمل	
+{LSTRFL2}	تمكين اختيار	
+{LSTRFL3}	إلغاء اختيار	
+{LSTRFL4}	حذف مختارة	
+{LSTRFL5}	نشط	
+{LSTRFL6}	انتهى	
+{LSTRFL7}	إلغاء	
+{LSTRFL8}	PIN	
+{LSTRFL9}	مجموعه كروت
+{LSTRFL10}	تم شحنها من خلال	
+{LSTRFL11}	المنشط على	
+{LSTRFL12}	انتهاء	
+{LSTRFL13}	اجمالى الكروت <BR> قيمة
+{LSTRFL14}	انشئت يوم	
+		
+// ACP new nas		
+		
+{NEWNAS0}	شبكة جديدة	
+{NEWNAS1}	اسم الشبكة	
+{NEWNAS2}	IP	
+{NEWNAS3}	نوع	
+{NEWNAS4}	سر	
+{NEWNAS5}	وصف	
+{NEWNAS6}	هذه العلامة * تعنى خانه لابد من كتابتها	
+{NEWNAS7}	إضافة شبكة
+{NEWNAS8}	كلمة السر
+{NEWNAS9}	مايكروتك، Chillispot، سيسكو	
+{NEWNAS10}	StarOS فقط	
+{NEWNAS11}	دعم الباندويث لنظام سيسكوا	
+{NEWNAS12}	لا شيء	
+{NEWNAS13}	معدل النقل	
+{NEWNAS14}	خريطة الاعدادات	
+{NEWNAS15}	API اسم المستخدم	
+{NEWNAS16}	API كلمة السر	
+{NEWNAS17}	مايكروتك	
+{NEWNAS18}	API تمكين الميكروتك	
+{NEWNAS19}	تعطيل
+{NEWNAS20}	Mikrotik API (< MT v6)
+{NEWNAS21}	CoA (MT 6+)
+{NEWNAS22}	API نسخة
+{NEWNAS23}	Pre 6.45.1
+{NEWNAS24}	6.45.1 او احدث
+
+// ACP edit nas		
+		
+{EDITNAS0}	 تعديل  بيانات شبكة
+{EDITNAS1}	اسم الشبكة	
+{EDITNAS2}	IP	
+{EDITNAS3}	نوع	
+{EDITNAS4}	سر	
+{EDITNAS5}	وصف	
+{EDITNAS6}	هذه العلامة * تعنى خانه لابد من كتابتها	
+{EDITNAS7}	تحديث الشبكة	
+{EDITNAS8}	حذف	
+{EDITNAS9}	كلمة السر
+{EDITNAS10}	مايكروتك، Chillispot، سيسكو	
+{EDITNAS11}	StarOS فقط	
+{EDITNAS12}	دعم الباندويث لنظام سيسكوا	
+{EDITNAS13}	لا شيء	
+{EDITNAS14}	معدل النقل	
+{EDITNAS15}	خريطة الاعدادات	
+{EDITNAS16}	API اسم المستخدم	
+{EDITNAS17}	API كلمة السر	
+{EDITNAS18}	مايكروتك	
+{EDITNAS19}	تمكين مايكروتك API	
+{EDITNAS20}	تعطيل
+{EDITNAS21}	Mikrotik API (< MT v6)
+{EDITNAS22}	CoA (MT 6+)
+{EDITNAS23}	API نسخة
+{EDITNAS24}	Pre 6.45.1
+{EDITNAS25}	6.45.1 أو احدث
+
+// ACP confirm delete nas		
+		
+{CFMDELNAS0}	رسالة النظام	
+{CFMDELNAS1}	حذف الشبكة
+{CFMDELNAS2}	حذف الشبكة
+		
+// ACP new IP pool		
+		
+{NEWPOOL0}	اضافه بوله جديدة	
+{NEWPOOL1}	اسم البوله الجديدة	
+{NEWPOOL2}	بدايه الاى بى 	
+{NEWPOOL3}	نهايه الاى بى 
+{NEWPOOL4}	اضافه مجموعه جديدة 	
+{NEWPOOL5}	وصف	
+{NEWPOOL6}	هذه العلامة * تعنى خانه لابد من كتابتها	
+{NEWPOOL7}	قم بالاضافه الان	
+{NEWPOOL8}	نوع	
+{NEWPOOL9}	DOCSIS	
+{NEWPOOL10}	RADIUS	
+		
+// ACP edit IP pool		
+		
+{EDITPOOL0}	تعديل مجموعه الايبيهات	
+{EDITPOOL1}	اسم البوله	
+{EDITPOOL2}	بدايه الاى بى 	
+{EDITPOOL3}	نهاية الاى بى
+{EDITPOOL4}	اضافه مجموعه جديدة	
+{EDITPOOL5}	وصف	
+{EDITPOOL6}	هذه العلامة * تعنى خانه لابد من كتابتها	
+{EDITPOOL7}	تحديث المجموعه
+{EDITPOOL8}	حذف	
+{EDITPOOL9}	نوع	
+		
+// ACP confirm delete IP pool		
+		
+{CFMDELPOOL0}	رسالة النظام	
+{CFMDELPOOL1}	حذف مجموعه الايبيهات	
+{CFMDELPOOL2}	حذف مجموعه الايبيهات	
+		
+// ACP new CMTS		
+		
+{NEWCMTS0}	CMTS جديد	
+{NEWCMTS1}	اسم	
+{NEWCMTS2}	IP	
+{NEWCMTS3}	SNMP community	
+{NEWCMTS4}	وصف	
+{NEWCMTS5}	هذه العلامة * تعنى خانه لابد من كتابتها	
+{NEWCMTS6}	قم بالحفظ 
+		
+// ACP edit CMTS		
+		
+{EDITCMTS0}    CMTS تعديل	
+{EDITCMTS1}	اسم	
+{EDITCMTS2}	IP	
+{EDITCMTS3}	SNMP community
+{EDITCMTS4}	وصف	
+{EDITCMTS5}	هذه العلامة * تعنى خانه لابد من كتابتها	
+{EDITCMTS6}	تحديث 
+{EDITCMTS7}	حذف	
+		
+// ACP confirm delete CMTS		
+		
+{CFMDELCMTS0}	رسالة النظام	
+{CFMDELCMTS1}	CMTS حذف	
+{CFMDELCMTS2}	CMTS حذف	
+		
+// ACP new manager		
+		
+{NEWMGR0}	مدير جديد	
+{NEWMGR1}	اسم المدير	
+{NEWMGR2}	تمكين	
+{NEWMGR3}	كلمة السر
+{NEWMGR4}	تأكيد كلمة السر
+{NEWMGR5}	الاسم الأول	
+{NEWMGR6}	رقم التليفون الارضى	
+{NEWMGR7}	رقم الهاتف المحمول	
+{NEWMGR8}	عنوان	
+{NEWMGR9}	المنطقه او الحى 	
+{NEWMGR10}	الرقم البريدى 	
+{NEWMGR11}	تعليق	
+{NEWMGR12}	1-32 حرفا	
+{NEWMGR13}	الصلاحيات	
+{NEWMGR14}	قائمة المشتركين	
+{NEWMGR15}	تسجيل المشتركين	
+{NEWMGR16}	تعديل بيانات المشتركين	
+{NEWMGR17}	حذف المشتركين	
+{NEWMGR18}	الوصول للفواتير	
+{NEWMGR19}	الوصول إلى جميع الفواتير	
+{NEWMGR20}	تعديل الفواتير	
+{NEWMGR21}	البريد الإلكتروني	
+{NEWMGR22}	السماح بوضع الرصيد بقيمة سالبه	
+{NEWMGR23}	قائمة المديرين
+{NEWMGR24}	تسجيل المديرين	
+{NEWMGR25}	تعديل المديرين 	
+{NEWMGR26}	حذف المديرين	
+{NEWMGR27}	المشتركين الاونلاين	
+{NEWMGR28}	قطع الاتصال بالانترنت على المشتركين	
+{NEWMGR29}	وظائف الفواتير	
+{NEWMGR30}	تقارير الاستخدام العام 	
+{NEWMGR31}	نظام الكارت والتسجيل الفورى	
+{NEWMGR32}	قائمة البروفيلات	
+{NEWMGR33}	تسجيل البروفيلات	
+{NEWMGR34}	تعديل  البروفيلات	
+{NEWMGR35}	حذف البروفيلات	
+{NEWMGR36}	اضافه الكل
+{NEWMGR37}	ازاله الكل
+{NEWMGR38}	هذه العلامة * تعنى خانه لابد من كتابتها	
+{NEWMGR39}	إضافة المدير	
+{NEWMGR40}	أسم العائلة
+{NEWMGR41}	الوصول إلى جميع المشتركين	
+{NEWMGR42}	البيانات العامة	
+{NEWMGR43}	اسم الشركة	
+{NEWMGR44}	بلد	
+{NEWMGR45}	المدينة	
+{NEWMGR46}	رقم البطاقه القومية	
+{NEWMGR47}	السماح بأعطاء خصومات 	
+{NEWMGR48}	تعديل صلاحيات المشتركين	
+{NEWMGR49}	امكانيه الغاء فاتوره	
+{NEWMGR50}	الدخول على الاكسسات والتعديل عليها	
+{NEWMGR51}	تقارير الاتصال	
+{NEWMGR52}	ملخص سجلات الدخول	
+{NEWMGR53}	لغة	
+{NEWMGR54}	إرسال بريد إلكتروني
+{NEWMGR55}	إرسال رسالة قصيرة SMS
+
+// ACP new service		
+		
+{NEWSRV0}	بروفيل جديد	
+{NEWSRV1}	المعايير الأساسية	
+{NEWSRV2}	اسم الخدمة	
+{NEWSRV3}	تمكين	
+{NEWSRV4}	نوع الخدمة	
+{NEWSRV5}	لمشتركين الدفع المسبق	
+{NEWSRV6}	للكروت والتسجيل اونلاين	
+{NEWSRV7}	الدفع الآجل	
+{NEWSRV8}	البريد الإلكتروني	
+{NEWSRV9}	كميه التحميل بالميجا	
+{NEWSRV10}	كميه الرفع بالميجا	
+{NEWSRV11}	وضع حد زمني	
+{NEWSRV12}	انتهاء تاريخ الاشتراك	
+{NEWSRV13}	الحد من الوقت على الانترنت	
+{NEWSRV14}	لا حدود للوقت	
+{NEWSRV15}	الدونلود اليومى	
+{NEWSRV16}	الابلود اليومى	
+{NEWSRV17}	اجمالى الوقت اليومى  	
+{NEWSRV18}	الخدمة 	
+{NEWSRV19}	تمكين وضع تغير الخدمة	
+{NEWSRV20}	اقصى سرعه (دونلود / ابلود)	
+{NEWSRV21}	اقل سرعه (دونلود / ابلود)	
+{NEWSRV22}	الوقت المتناسب (دونلود / ابلود)	
+{NEWSRV23}	مجموعه ايبيهات	
+{NEWSRV24}	MB	
+{NEWSRV25}	(0- الصفر يعنى لا يعمل)	
+{NEWSRV26}	(0- الصفر يعنى لا يعمل)	
+{NEWSRV27}	(HH: MM: SS)	
+{NEWSRV28}	(00:00:00 - لا يوجد حد للوقت)	
+{NEWSRV29}	KB	
+{NEWSRV30}	(0 - الصفر يعنى لا يوجد حد للسرعه)	
+{NEWSRV31}	ثواني	
+{NEWSRV32}	تعريف السعر	
+{NEWSRV33}	مشتركين الدفع الاجل	
+{NEWSRV34}	الدونلود	
+{NEWSRV35}	الابلود	
+{NEWSRV36}	الوقت على الانترنت	
+{NEWSRV37}	الحساب الشهري	
+{NEWSRV38}	إعادة تعيين عدادات إذا انتهت صلاحية تاريخ	
+{NEWSRV39}	تمكٌين الاضافات	
+{NEWSRV40}	ضريبه السعر المضاف	
+{NEWSRV41}	السعر	
+{NEWSRV42}	السعر الاجمالى	
+{NEWSRV43}	سعر الاضافه	
+{NEWSRV44}	اجمالى سعر الاضافه	
+{NEWSRV45}	ضريبة	
+{NEWSRV46}	االاعدادات على حسب التاريخ	
+{NEWSRV47}	اعادة التاريخ لنفس يوم السداد	
+{NEWSRV48}	التاريخ فى اليوم المسجل	
+{NEWSRV49}	الاعدادات فى حاله الاضافات	
+{NEWSRV50}	إعادة تعيين عدادات المرور	
+{NEWSRV51}	المضافة	
+{NEWSRV52}	وحدة تاريخ انتهاء الصلاحية	
+{NEWSRV53}	وحدة التحميل بالميجا 	
+{NEWSRV54}	الحد الأدنى من المبلغ الأساسي	
+{NEWSRV55}	س N وحدة زمنية	
+{NEWSRV56}	س N وحدة المرور	
+{NEWSRV57}	MB	
+{NEWSRV58}	وحدة	
+{NEWSRV59}	هذه العلامة * تعنى خانه لابد من كتابتها	
+{NEWSRV60}	قم بالأنشاء	
+{NEWSRV61}	أفضلية	
+{NEWSRV62}	قائمة الاكسسات	
+{NEWSRV63}	انتهاء استهلاك التحميل	
+{NEWSRV64}	مجموع التحميل اليومى	
+{NEWSRV65}	(0- الصفر يعنى لا يعمل)	
+{NEWSRV66}	وحده الرفع بالميجا 	
+{NEWSRV67}	المجموع الكلى للتحميل بالميجا 	
+{NEWSRV68}	الخدمة لمن انتهى اشتراكه	
+{NEWSRV69}	يظهر فى لوحه تحكم المشترك	
+{NEWSRV70}	التجديد التلقائي	
+{NEWSRV71}	الحد الادنى من عدد الاضافات	
+{NEWSRV72}	اونلاين	
+{NEWSRV73}	دونلود	
+{NEWSRV74}	ابلود	
+{NEWSRV75}	(سيسكو فقط)	
+{NEWSRV76}	وحدة الوقت على الانترنت	
+{NEWSRV77}	وضع بالاضافة الوقت	
+{NEWSRV78}	تصفير عدادات الوقت	
+{NEWSRV79}	اضافه مزيد من الوقت	
+{NEWSRV80}	السماح للشبكات	
+{NEWSRV81}	جميع	
+{NEWSRV82}	لا شيء	
+{NEWSRV83}	الخدمة اليوميه التاليه	
+{NEWSRV84}	متاح للمديرين	
+{NEWSRV85}	سمات مخصصة	
+{NEWSRV86}	التاريخ فى يوم السداد مع التصحيح	
+{NEWSRV87}	TFTP انشاء ملف	
+{NEWSRV88}	التكوين المتقدم CM	
+{NEWSRV90}	ترحيل الميجات للتجديد القادم	
+{NEWSRV91}	عدد الميجات الاضافيه	
+{NEWSRV92}	تجاهل الاى بى الثابت	
+{NEWSRV93}	وصف	
+{NEWSRV94}	المفصول عنهم الخدمة نهائيا	
+{NEWSRV95}	إعادة تعيين العدادات اذا كان الاستهلاك سلبي
+		
+// ACP online RADIUS users		
+		
+{ONLINEUSR0}	مستخدمي الانترنت	
+{ONLINEUSR1}	اسم المستخدم	
+{ONLINEUSR2}	وقت البدء	
+{ONLINEUSR3}	الوقت على الانترنت	
+{ONLINEUSR4}	دونلود	
+{ONLINEUSR5}	ابلود
+{ONLINEUSR6}	IP	
+{ONLINEUSR7}	ماك ادريس المشترك
+{ONLINEUSR8}	الشبكة
+{ONLINEUSR9}	حدث	
+{ONLINEUSR10}	قطع	
+{ONLINEUSR11}	التحميل المتاح /الوقت المتضًمن للتحميل	
+{ONLINEUSR12}	قطع الجلسه	
+{ONLINEUSR13}	فلتر	
+{ONLINEUSR14}	اسم المستخدم	
+{ONLINEUSR15}	مجموعة	
+{ONLINEUSR16}	الاكسس
+{ONLINEUSR17}	إشارة الاكسس	
+{ONLINEUSR18}	SNR 	
+{ONLINEUSR19}	CCQ ٪	
+{ONLINEUSR20}	الاسم الاول	
+{ONLINEUSR21}	اسم العائلة	
+{ONLINEUSR22}	شركة	
+{ONLINEUSR23}	عنوان	
+{ONLINEUSR24}	المنطقه او الحى 	
+{ONLINEUSR25}	الرقم البريدى 	
+{ONLINEUSR26}	بلد	
+{ONLINEUSR27}	المدينه	
+{ONLINEUSR28}	البريد الإلكتروني	
+{ONLINEUSR29}	تعليق	
+{ONLINEUSR30}	غير مفعل 	
+		
+// ACP online CM		
+		
+{ONLINECM0}	كابل مودم مسجل	
+{ONLINECM1}	اسم المستخدم	
+{ONLINECM2}	CMTS	
+{ONLINECM3}	اسم المستخدم	
+{ONLINECM4}	مجموعة	
+{ONLINECM5}	ضد التيار	
+{ONLINECM6}	مشكلة إشارة	
+{ONLINECM7}	عنوان CM MAC	
+{ONLINECM8}	IP CM	
+{ONLINECM9}	IP CPE	
+{ONLINECM10}	CMTS	
+{ONLINECM11}	نشط	
+{ONLINECM12}	انتهى	
+{ONLINECM13}	غير مفعل 	
+{ONLINECM14}	حدث
+{ONLINECM15}	إعادة تشغيل CM	
+{ONLINECM16}	DS SNR (dB)
+{ONLINECM17}	TX pwr (dB/&micro;V)
+{ONLINECM18}	RX pwr (dB/&micro;V)
+{ONLINECM19}	عمل بنج (مللي ثانية)	
+{ONLINECM20}	حدث	
+{ONLINECM21}	مجموعة	
+{ONLINECM22}	SNR US	
+{ONLINECM23}	الاسم الاول	
+{ONLINECM24}	اسم العائلة	
+{ONLINECM25}	شركة	
+{ONLINECM26}	عنوان	
+{ONLINECM27}	المنطقه او الحى 	
+{ONLINECM28}	الرقم البريدى 	
+{ONLINECM29}	بلد	
+{ONLINECM30}	المدينه	
+{ONLINECM31}	البريد الإلكتروني	
+{ONLINECM32}	تعليق	
+		
+// ACP revoke card		
+		
+{RVKCARD0}	إلغاء الكارت
+{RVKCARD1}	رقم الكارت
+{RVKCARD2}	هذه العلامة * تعنى خانه لابد من كتابتها	
+{RVKCARD3}	سحب	
+{RVKCARD4}	هل أنت متأكد من إلغاء الكارت؟	
+		
+// ACP find traffic data		
+		
+{TRFFLTR0}	بحث عن سجلات الدخول للمشتركين	
+{TRFFLTR1}	اسم المستخدم	
+{TRFFLTR2}	IP ضمن إطار	
+{TRFFLTR3}	تدعو محطة ID	
+{TRFFLTR4}	(اسم المستخدم، MAC، رقم الكارت)	
+{TRFFLTR5}	(MAC، IP)	
+{TRFFLTR6}	انشاء تقرير	
+{TRFFLTR7}	في فترة محددة فقط	
+{TRFFLTR8}	لا يسمح للنكتة!	
+{TRFFLTR9}	من تاريخ	
+{TRFFLTR10}	حتى الآن	
+{TRFFLTR11}	YYYY-MM-DD	
+{TRFFLTR12}	الشبكة
+{TRFFLTR13}	اكسس	
+		
+// ACP find traffic summary		
+		
+{TRFSUMFLTR0}	البحث فى سجل العملاء	
+{TRFSUMFLTR1}	من	
+{TRFSUMFLTR2}	إلى	
+{TRFSUMFLTR3}	انشاء تقرير	
+{TRFSUMFLTR4}	YYYY-MM-DD	
+{TRFSUMFLTR5}	الشبكة
+{TRFSUMFLTR6}	اكسس	
+		
+// ACP traffic summary		
+		
+{TRFSUM0}	البحث فى سجل العملاء	
+{TRFSUM1}	اسم المستخدم	
+{TRFSUM2}	دونلود	
+{TRFSUM3}	ابلود
+{TRFSUM4}	مجموع	
+{TRFSUM5}	الوقت على الانترنت	
+{TRFSUM6}	من	
+{TRFSUM7}	إلى	
+{TRFSUM8}	التصدير إلى CSV	
+{TRFSUM9}	الاسم الاول	
+{TRFSUM10}	اسم العائلة	
+		
+// ACP system informations		
+		
+{SYSINFO0}	معلومات السيستم	
+{SYSINFO1}	بيانات السيستم 	
+{SYSINFO2}	الرخصه تخص البيانات الاتيه	
+{SYSINFO3}	انتهاء صلاحيه النسخه 	
+{SYSINFO4}	امكانيه الترقيه حتى تاريخ	
+{SYSINFO5}	عدد العملاء التى يمكنك اضافتها 	
+{SYSINFO6}	العدد الأقصى من الشبكات
+{SYSINFO7}	امكانيه اضافه كروت الشحن	
+{SYSINFO8}	امكانيه تتبع العملاء	
+{SYSINFO9}	دعم نظام سيسكو	
+{SYSINFO10}	DOCSIS دعم نظام 	
+{SYSINFO11}	DOCSIS العدد الأقصى من حسابات 	
+{SYSINFO12}	CMTS العدد الأقصى من 	
+{SYSINFO13}	اسم تسجيل	
+		
+// ACP system statistics		
+		
+{SYSSTATS0}	إحصاءات السيستم	
+{SYSSTATS1}	الإحصاءات العامة	
+{SYSSTATS2}	اجمالى عدد العملاء المضافه	
+{SYSSTATS3}	اجمالى عدد العملاء السيستم	
+{SYSSTATS4}	DOCSIS أجمالى عملاء	
+{SYSSTATS5}	عدد العملاء المنتظمة 	
+{SYSSTATS6}	عدد عملاء الماك ادريس 	
+{SYSSTATS7}	mikrotik ACL	
+{SYSSTATS8}	StarOS ACL	
+{SYSSTATS9}	عملاء الكروت
+{SYSSTATS10}	عملاء فورى	
+{SYSSTATS11}	احصائيات السيستم	
+		
+// ACP + UCP system error		
+		
+{SYSERR0}	لا يمكن اتمام ذالك الان	
+		
+// ACP + UCP system message		
+		
+{SYSMSG0}	رسالة النظام	
+		
+// UCP enter card number		
+		
+{ENTCRDNUM0}	اشحن رصيدك بستخدام كارت الشحن	
+{ENTCRDNUM1}	رقم الكارت
+{ENTCRDNUM2}	هذه العلامة * تعنى خانه لابد من كتابتها	
+{ENTCRDNUM3}	اتمام الخدمة 	
+		
+// UCP change password		
+		
+{CHGPSW0}	تغيير كلمة السر	
+{CHGPSW1}	كلمة السر القديمة	
+{CHGPSW2}	كلمة السر الجديدة	
+{CHGPSW3}	تأكيد كلمة السر الجديدة	
+{CHGPSW4}	(1-32 حرفا)	
+{CHGPSW5}	هذه العلامة * تعنى خانه لابد من كتابتها	
+{CHGPSW6}	اتمام الخدمة	
+		
+// ACP edit service		
+		
+{EDITSRV0}	 تعديل  البروفيلات	
+{EDITSRV1}	المعايير الأساسية	
+{EDITSRV2}	اسم الخدمة	
+{EDITSRV3}	تمكين	
+{EDITSRV4}	نوع اللاشتراك	
+{EDITSRV5}	لمشتركين الدفع المسبق	
+{EDITSRV6}	للكروت والتسجيل اونلاين	
+{EDITSRV7}	الدفع الآجل	
+{EDITSRV8}	البريد الإلكتروني	
+{EDITSRV9}	كميه التحميل بالميجا	
+{EDITSRV10}	كميه الرفع بالميجا	
+{EDITSRV11}	وضع حد زمني	
+{EDITSRV12}	انتهاء تاريخ الاشتراك	
+{EDITSRV13}	الحد من الوقت على الانترنت	
+{EDITSRV14}	لا حدود للوقت	
+{EDITSRV15}	الدونلود اليومى	
+{EDITSRV16}	الابلود اليومى	
+{EDITSRV17}	اجمالى الوقت اليومى	
+{EDITSRV18}	الخدمة	
+{EDITSRV19}	تمكين وضع تغير الخدمة	
+{EDITSRV20}	اقصى سرعه (دونلود / ابلود)	
+{EDITSRV21}	معدل التغير (دونلود / ابلود)	
+{EDITSRV22}	الوقت المتاح (دونلود / ابلود)	
+{EDITSRV23}	مجموعه ايبيهات	
+{EDITSRV24}	MB	
+{EDITSRV25}	(0- الصفر يعنى لا يعمل)	
+{EDITSRV26}	(0- الصفر يعنى لا يعمل)	
+{EDITSRV27}	(HH: MM: SS)	
+{EDITSRV28}	(00:00:00- تعنى لا تعمل )	
+{EDITSRV29}	KB	
+{EDITSRV30}	(0- الصفر يعنى لا يوجد حد للسرعه)	
+{EDITSRV31}	ثواني	
+{EDITSRV32}	تحديد السعر على حسب الاتى	
+{EDITSRV33}	مشتركين الدفع الاجل 	
+{EDITSRV34}	الدونلود	
+{EDITSRV35}	الابلود	
+{EDITSRV36}	الوقت على الانترنت	
+{EDITSRV37}	الحساب الشهري	
+{EDITSRV38}	إعادة تعيين عدادات إذا انتهت صلاحية تاريخ	
+{EDITSRV39}	امكانيه الاضافات	
+{EDITSRV40}	معدل ضريبة القيمة المضافة	
+{EDITSRV41}	صافي السعر	
+{EDITSRV42}	السعر الإجمالي	
+{EDITSRV43}	صافي السعر	
+{EDITSRV44}	سعر الاضافه الواحده	
+{EDITSRV45}	ضريبة	
+{EDITSRV46}	االاعدادات على حسب التاريخ	
+{EDITSRV47}	اعادة التاريخ لنفس يوم السداد	
+{EDITSRV48}	التاريخ فى اليوم المسجل 	
+{EDITSRV49}	الاعدادات فى حاله الاضافات	
+{EDITSRV50}	تصفير عدادات التحميلات	
+{EDITSRV51}	الاضافات	
+{EDITSRV52}	وحدة تاريخ انتهاء الصلاحية	
+{EDITSRV53}	وحدة التحميل بالميجا 	
+{EDITSRV54}	الحد الأدنى من المبلغ الأساسي	
+{EDITSRV55}	س N وحدة زمنية	
+{EDITSRV56}	س N وحدة المرور	
+{EDITSRV57}	MB	
+{EDITSRV58}	وحدة	
+{EDITSRV59}	هذه العلامة * تعنى خانه لابد من كتابتها	
+{EDITSRV60}	تحديث الخدمة	
+{EDITSRV61}	حذف	
+{EDITSRV62}	أفضلية	
+{EDITSRV63}	قائمة الاكسسات	
+{EDITSRV64}	انتهاء استهلاك التحميل	
+{EDITSRV65}	مجموع التحميل اليومى	
+{EDITSRV66}	(0- الصفر يعنى لا يعمل)	
+{EDITSRV67}	وحده الرفع بالميجا 	
+{EDITSRV68}	المجموع الكلى للتحميل بالميجا 	
+{EDITSRV69}	الخدمة لمن انتهى اشتراكه	
+{EDITSRV70}	يظهر فى لوحه تحكم المشترك	
+{EDITSRV71}	التجديد التلقائي	
+{EDITSRV72}	الحد الادنى من عدد الاضافات	
+{EDITSRV73}	اونلاين	
+{EDITSRV74}	دونلود	
+{EDITSRV75}	الابلود	
+{EDITSRV76}	(سيسكو فقط)	
+{EDITSRV77}	وحدة الوقت على الانترنت	
+{EDITSRV78}	الاعدادات على حسب الوقت	
+{EDITSRV79}	تصفير عدادات الوقت	
+{EDITSRV80}	اضافه مزيد من الوقت	
+{EDITSRV81}	المحاسبة الخاصة	
+{EDITSRV82}	تعديل 	
+{EDITSRV83}	السماح للشبكات 	
+{EDITSRV84}	جميع	
+{EDITSRV85}	لا شيء	
+{EDITSRV86}	الخدمة اليوميه التاليه	
+{EDITSRV87}	التغير التلقائى للسرعه	
+{EDITSRV88}	متاح للمديرين	
+{EDITSRV89}	سمات مخصصة	
+{EDITSRV90}	التاريخ فى يوم السداد مع التصحيح	
+{EDITSRV91}	TFTP انشاء	
+{EDITSRV92}	advanced CM	
+{EDITSRV93}	ترحيل الميجات للتجديد القادم	
+{EDITSRV94}	عدد الميجات الاضافيه	
+{EDITSRV95}	تجاهل الاى بى الثابت	
+{EDITSRV96}	وصف	
+{EDITSRV97}	المفصول عنهم الخدمة نهائيا	
+{EDITSRV98}	إعادة تعيين العدادات اذا كان الاستهلاك سلبي
+
+// new special accounting period		
+		
+{NEWSPCPERACNT0}	اضافه جديدة	
+{NEWSPCPERACNT1}	وقت البدء	
+{NEWSPCPERACNT2}	وقت النهاية	
+{NEWSPCPERACNT3}	نسبة الوقت	
+{NEWSPCPERACNT4}	نسبة الدونلود	
+{NEWSPCPERACNT5}	نسبة الابلود
+{NEWSPCPERACNT6}	يسمح اتصال	
+{NEWSPCPERACNT7}	نعم	
+{NEWSPCPERACNT8}	لا	
+{NEWSPCPERACNT9}	اتمام الاضافه	
+{NEWSPCPERACNT10}	العودة إلى قائمة	
+{NEWSPCPERACNT11}	الإثنين	
+{NEWSPCPERACNT12}	الثلاثاء	
+{NEWSPCPERACNT13}	الأربعاء	
+{NEWSPCPERACNT14}	الخميس	
+{NEWSPCPERACNT15}	الجمعة	
+{NEWSPCPERACNT16}	السبت	
+{NEWSPCPERACNT17}	الأحد	
+		
+// edit special accounting period		
+		
+{EDITSPCPERACNT0}	 تعديل 	
+{EDITSPCPERACNT1}	وقت البدء	
+{EDITSPCPERACNT2}	وقت النهاية	
+{EDITSPCPERACNT3}	نسبة الوقت	
+{EDITSPCPERACNT4}	نسبة الدونلود
+{EDITSPCPERACNT5}	نسبة الابلود
+{EDITSPCPERACNT6}	يسمح اتصال	
+{EDITSPCPERACNT7}	نعم	
+{EDITSPCPERACNT8}	لا	
+{EDITSPCPERACNT9}	تحديث	
+{EDITSPCPERACNT10}	العودة إلى قائمة	
+{EDITSPCPERACNT11}	حذف	
+{EDITSPCPERACNT12}	الإثنين	
+{EDITSPCPERACNT13}	الثلاثاء	
+{EDITSPCPERACNT14}	الأربعاء	
+{EDITSPCPERACNT15}	الخميس	
+{EDITSPCPERACNT16}	الجمعة	
+{EDITSPCPERACNT17}	السبت	
+{EDITSPCPERACNT18}	الأحد	
+		
+// list special accounting periods		
+		
+{LSTSPECPERACNT0}	المحاسبة الخاصة	
+{LSTSPECPERACNT1}	اضافه جديدة	
+{LSTSPECPERACNT2}	عمل	
+{LSTSPECPERACNT3}	حذف مختارة	
+{LSTSPECPERACNT4}	وقت البدء	
+{LSTSPECPERACNT5}	وقت النهاية	
+{LSTSPECPERACNT6}	نسبة الوقت	
+{LSTSPECPERACNT7}	نسبة الدونلود
+{LSTSPECPERACNT8}	نسبة الابلود
+{LSTSPECPERACNT9}	يسمح اتصال	
+{LSTSPECPERACNT10}	 تعديل 	
+{LSTSPECPERACNT11}	الإثنين	
+{LSTSPECPERACNT12}	الثلاثاء	
+{LSTSPECPERACNT13}	الاربعاء
+{LSTSPECPERACNT14}	الخميس	
+{LSTSPECPERACNT15}	الجمعة	
+{LSTSPECPERACNT16}	السبت	
+{LSTSPECPERACNT17}	الأحد	
+		
+// list dynamic data rates		
+		
+{LSTSPECPERBW0}	        السرعات المتغيره	
+{LSTSPECPERBW1}  	اضافه جديدة	
+{LSTSPECPERBW2}	        عمل	
+{LSTSPECPERBW3}	        حذف
+{LSTSPECPERBW4}	        تعديل 	
+{LSTSPECPERBW5}	        الإثنين	
+{LSTSPECPERBW6}	        الثلاثاء	
+{LSTSPECPERBW7}	        الاربعاء	
+{LSTSPECPERBW8}	        الخميس      	
+{LSTSPECPERBW9}	        الجمعة	
+{LSTSPECPERBW10}	السبت	
+{LSTSPECPERBW11}	الأحد
+{LSTSPECPERBW12}	وقت البدء	
+{LSTSPECPERBW13}	وقت النهاية	
+{LSTSPECPERBW14}	معدل البيانات <BR> الدونلود / الابلود<BR> (كيلوبت في الثانية)	
+{LSTSPECPERBW15}	اقصى سرعه <BR> الدونلود / الابلود<BR> (كيلوبت في الثانية)	
+{LSTSPECPERBW16}	اقل سرعه <BR> الدونلود / الابلود<BR> (كيلوبت في الثانية)	
+{LSTSPECPERBW17}	الوقت المتناسب <BR> الدونلود / الابلود<BR> (ثواني)	
+{LSTSPECPERBW18}	أفضلية	
+		
+// edit dynamic data rate		
+		
+{EDITSPCPERBW0}	 تعديل 	
+{EDITSPCPERBW1}	الإثنين	
+{EDITSPCPERBW2}	الثلاثاء	
+{EDITSPCPERBW3}	الأربعاء	
+{EDITSPCPERBW4}	الخميس	
+{EDITSPCPERBW5}	الجمعة	
+{EDITSPCPERBW6}	السبت	
+{EDITSPCPERBW7}	الأحد	
+{EDITSPCPERBW8}	وقت البدء	
+{EDITSPCPERBW9}	وقت النهاية	
+{EDITSPCPERBW10}	الخدمة	
+{EDITSPCPERBW11}	تمكين وضع تغير الخدمة	
+{EDITSPCPERBW12}	اقصى سرعه (دونلود / ابلود)	
+{EDITSPCPERBW13}	اقل سرعه (دونلود / ابلود)	
+{EDITSPCPERBW14}	الوقت المتناسب (دونلود / ابلود)	
+{EDITSPCPERBW15}	أفضلية	
+{EDITSPCPERBW16}	كيلو بايت في الثانية	
+{EDITSPCPERBW17}	تحديث	
+{EDITSPCPERBW18}	العودة إلى قائمة	
+{EDITSPCPERBW19}	حذف	
+		
+// new dynamic data rate period		
+		
+{NEWSPCPERBW0}	اضافه جديدة	
+{NEWSPCPERBW1}	الإثنين	
+{NEWSPCPERBW2}	الثلاثاء	
+{NEWSPCPERBW3}	الأربعاء	
+{NEWSPCPERBW4}	الخميس	
+{NEWSPCPERBW5}	الجمعة	
+{NEWSPCPERBW6}	السبت	
+{NEWSPCPERBW7}	الأحد	
+{NEWSPCPERBW8}	وقت البدء	
+{NEWSPCPERBW9}	وقت النهاية	
+{NEWSPCPERBW10}	الخدمة	
+{NEWSPCPERBW11}	تمكين وضع تغير الخدمة	
+{NEWSPCPERBW12}	اقصى سرعه (دونلود / ابلود)	
+{NEWSPCPERBW13}	اقل سرعه (دونلود / ابلود)	
+{NEWSPCPERBW14}	الوقت المتناسب (دونلود / ابلود)	
+{NEWSPCPERBW15}	أفضلية	
+{NEWSPCPERBW16}	كيلو بايت في الثانية	
+{NEWSPCPERBW17}	ثواني	
+{NEWSPCPERBW18}	اتمام الاضافه	
+{NEWSPCPERBW19}	العودة إلى قائمة	
+		
+// ACP edit manager		
+		
+{EDITMGR0}	تعديل المدير 	
+{EDITMGR1}	اسم المدير	
+{EDITMGR2}	تمكين	
+{EDITMGR3}	كلمة السر
+{EDITMGR4}	تأكيد كلمة السر
+{EDITMGR5}	الاسم الاول	
+{EDITMGR6}	رقم التليفون الارضى	
+{EDITMGR7}	رقم الهاتف المحمول	
+{EDITMGR8}	عنوان	
+{EDITMGR9}	المنطقه او الحى 	
+{EDITMGR10}	الرقم البريدى 	
+{EDITMGR11}	تعليق	
+{EDITMGR12}	1-32 حرفا	
+{EDITMGR13}	الصلاحيات	
+{EDITMGR14}	قائمة المشتركين	
+{EDITMGR15}	تسجيل المشتركين	
+{EDITMGR16}	تعديل بيانات المشتركين	
+{EDITMGR17}	حذف المشتركين	
+{EDITMGR18}	رؤية الفواتير	
+{EDITMGR19}	الوصول إلى جميع الفواتير	
+{EDITMGR20}	تعديل الفواتير	
+{EDITMGR21}	البريد الإلكتروني	
+{EDITMGR22}	السماح بوضع الرصيد بقيمة سالبة	
+{EDITMGR23}	قائمة المديرين	
+{EDITMGR24}	تسجيل المديرين	
+{EDITMGR25}	تعديل المديرين 	
+{EDITMGR26}	حذف المديرين
+{EDITMGR27}	المشتركين الاونلاين	
+{EDITMGR28}	قطع الاتصال بالانترنت على المشتركين	
+{EDITMGR29}	وظائف الفواتير	
+{EDITMGR30}	تقارير الاستخدام العام 	
+{EDITMGR31}	كروت الشحن والتسجيل الفورى	
+{EDITMGR32}	قائمة البروفيلات	
+{EDITMGR33}	تسجيل البروفيلات	
+{EDITMGR34}	تعديل  البروفيلات	
+{EDITMGR35}	حذف البروفيلات	
+{EDITMGR36}	اضافه الكل	
+{EDITMGR37}	ازاله الكل	
+{EDITMGR38}	هذه العلامة * تعنى خانه لابد من كتابتها	
+{EDITMGR39}	تأكيد التحديثات	
+{EDITMGR40}	معلومات الرصيد	
+{EDITMGR41}	الرصيد المتاح	
+{EDITMGR42}	كميه الرصيد	
+{EDITMGR43}	اضافه الرصيد	
+{EDITMGR44}	قائمة الفواتير	
+{EDITMGR45}	حذف	
+{EDITMGR46}	هل أنت تأكد من دفع الفاتوره للعميل؟	
+{EDITMGR47}	اسم العيله	
+{EDITMGR48}	الوصول إلى جميع المشتركين	
+{EDITMGR49}	البيانات العامة	
+{EDITMGR50}	تغيير كلمة السر
+{EDITMGR51}	سماح الرصيد السلبي	
+{EDITMGR52}	وصف	
+{EDITMGR53}	نوع الدفع	
+{EDITMGR54}	كاش	
+{EDITMGR55}	تحويل بنكى	
+{EDITMGR56}	اسم الشركة	
+{EDITMGR57}	رقم البطاقه القومية	
+{EDITMGR58}	بلد	
+{EDITMGR59}	المدينه	
+{EDITMGR60}	السماح بأعطاء خصومات	
+{EDITMGR61}	تعديل صلاحيات المشتركين 	
+{EDITMGR62}	امكانيه الغاء الفواتير	
+{EDITMGR63}	الدخول على الاكسسات والتعديل عليها	
+{EDITMGR64}	تقارير الاتصال
+{EDITMGR65}	مخلص سجلات الدخول	
+{EDITMGR66}	لغة	
+{EDITMGR67}	إرسال بريد إلكتروني
+{EDITMGR68}	إرسال رسالة قصيرة SMS
+
+// ACP find CTS data		
+		
+{CTSFLTR0}	العثور على بيانات اتصال	
+{CTSFLTR1}	اسم المستخدم	
+{CTSFLTR2}	Source IP	
+{CTSFLTR3}	البورت	
+{CTSFLTR4}	Destination IP	
+{CTSFLTR5}	بروتوكول	
+{CTSFLTR6}	من وقت	
+{CTSFLTR7}	من تاريخ	
+{CTSFLTR8}	حتى الآن	
+{CTSFLTR9}	انشاء تقرير	
+{CTSFLTR10}	الكل
+{CTSFLTR11}	TCP	
+{CTSFLTR12}	UDP	
+{CTSFLTR13}	(اسم المستخدم، ماك ادريس، رقم الكارت)	
+{CTSFLTR14}	لآخر	
+{CTSFLTR15}	YYYY-MM-DD	
+		
+// ACP CTS report		
+		
+{CTSREP0}	تقارير الاتصال	
+{CTSREP1}	التاريخ والوقت	
+{CTSREP2}	اسم المستخدم	
+{CTSREP3}	مصدر IP	
+{CTSREP4}	منفذ المصدر	
+{CTSREP5}	وجهة IP	
+{CTSREP6}	منفذ الوجهة	
+{CTSREP7}	بروتوكول	
+		
+// ACP detailed CTS report		
+		
+{DETCTSREP0}	تقارير الاتصال	
+{DETCTSREP1}	التاريخ والوقت	
+{DETCTSREP2}	اسم المستخدم	
+{DETCTSREP3}	مصدر IP	
+{DETCTSREP4}	منفذ المصدر	
+{DETCTSREP5}	وجهة IP	
+{DETCTSREP6}	منفذ الوجهة	
+{DETCTSREP7}	بروتوكول	
+		
+// ACP find postauth data		
+		
+{FNDPSAUTH0}	العثور على بيانات التوثيق	
+{FNDPSAUTH1}	اسم المستخدم	
+{FNDPSAUTH2}	الشبكة
+{FNDPSAUTH3}	من	
+{FNDPSAUTH4}	إلى	
+{FNDPSAUTH5}	YYYY-MM-DD	
+{FNDPSAUTH6}	انشاء تقرير	
+		
+// ACP postauth report		
+		
+{AUTHLOG0}	سجل التوثيق	
+{AUTHLOG1}	التاريخ والوقت	
+{AUTHLOG2}	اسم المستخدم	
+{AUTHLOG3}	RADIUS الرد	
+{AUTHLOG4}	الشبكة
+		
+// ACP new IAS template		
+		
+{NEWIAS0}	قالب معيار المحاسبة الدولي رقم جديد	
+{NEWIAS1}	IAS اسم القالب	
+{NEWIAS2}	تمكين IAS	
+{NEWIAS3}	السعر	
+{NEWIAS4}	اسم الخدمة	
+{NEWIAS5}	انتهاء	
+{NEWIAS6}	كميه التحميل بالميجا 	
+{NEWIAS7}	كميه الرفع بالميجا	
+{NEWIAS8}	اجمالى كميه التحميلات بالميجا	
+{NEWIAS9}	المهلة الانترنت	
+{NEWIAS10}	انتهاء	
+{NEWIAS11}	الوقت المتاح من تنشيط الحساب	
+{NEWIAS12}	YYYY-MM-DD	
+{NEWIAS13}	MB	
+{NEWIAS14}	ساعات	
+{NEWIAS15}	التي يحددها تاريخ انتهاء الصلاحية	
+{NEWIAS16}	تحسب من تنشيط الحساب	
+{NEWIAS17}	الحقول إلزامية	
+{NEWIAS18}	متجر	
+{NEWIAS19}	عدد الاجهزه التى يمكنها الاتصال	
+		
+// ACP edit IUAS template		
+		
+{EDITIAS0}	قالب  تعديل IAS	
+{EDITIAS1}	IAS اسم القالب	
+{EDITIAS2}	تمكين IAS	
+{EDITIAS3}	السعر	
+{EDITIAS4}	اسم الخدمة	
+{EDITIAS5}	تاريخ انتهاء الصلاحية	
+{EDITIAS6}	كميه التحميل بالميجا 	
+{EDITIAS7}	كميه الرفع بالميجا 	
+{EDITIAS8}	اجمالى التحميلات بالميجا	
+{EDITIAS9}	المهلة الانترنت	
+{EDITIAS10}	انتهاء	
+{EDITIAS11}	الوقت المتاح من تنشيط الحساب	
+{EDITIAS12}	YYYY-MM-DD	
+{EDITIAS13}	MB	
+{EDITIAS14}	ساعات	
+{EDITIAS15}	التي يحددها تاريخ انتهاء الصلاحية	
+{EDITIAS16}	تحسب من تنشيط الحساب	
+{EDITIAS17}	الحقول إلزامية	
+{EDITIAS18}	تحديث	
+{EDITIAS19}	حذف قالب IAS	
+{EDITIAS20}	عدد الاجهزه التى يمكنها الاتصال	
+		
+// ACP list IAS		
+		
+{LSTIAS0}	قوالب خدمة الوصول الفوري	
+{LSTIAS1}	اسم IAS	
+{LSTIAS2}	السعر	
+{LSTIAS3}	اسم الخدمة	
+{LSTIAS4}	كميه التحميل بالميجا <BR> (MB)	
+{LSTIAS5}	كميه الرفع بالميجا <BR> (MB)	
+{LSTIAS6}	الحد الكلي <BR> (MB)	
+{LSTIAS7}	المهلة الانترنت	
+{LSTIAS8}	الوقت المتاح	
+{LSTIAS9}	عمل	
+{LSTIAS10}	نشط	
+{LSTIAS11}	غير مفعل 	
+{LSTIAS12}	تمكين IAS	
+{LSTIAS13}	تعطيل IAS	
+{LSTIAS14}	حذف معيار المحاسبة الدولي رقم	
+{LSTIAS15}	انتهاء	
+		
+// UCP login		
+		
+{UCPLOGIN0}	لوحة تحكم العميل	
+{UCPLOGIN1}	اسم المستخدم	
+{UCPLOGIN2}	كلمة السر
+{UCPLOGIN3}	تسجيل الدخول	
+{UCPLOGIN4}	تسجيل دخول آمن	
+{UCPLOGIN5}	لوحة تحكم العميل	
+{UCPLOGIN6}	لغة	
+{UCPLOGIN7}	نسيت كلمة السر
+{UCPLOGIN8}	This website uses cookies which are mandatory for a proper function of the system. The cookies are used for storing the user's default language etc. The cookies <b>doesn't collect any statistical or analytical information</b> and can be examined, removed or blocked in the webbrowser. If You don't agree, please don't use this website.
+		
+// UCP logout		
+		
+{UCPLOGOUT0}	لوحة تحكم العميل	
+{UCPLOGOUT1}	إعادة توجيه إلى صفحة تسجيل الدخول ...	
+{UCPLOGOUT2}	تسجيل الدخول	
+{UCPLOGOUT3}	لوحة تحكم العميل	
+		
+// UCP main template		
+		
+{UCPMAIN0}	الرئيسية	
+{UCPMAIN1}	استخدامك الشخصى	
+{UCPMAIN2}	الفواتير	
+{UCPMAIN3}	تغيير كلمة السر	
+{UCPMAIN4}	اشحن رصيدك بكارت شحن 
+{UCPMAIN5}	أعادة تشغيل الاشتراك	
+{UCPMAIN6}	تغيير الخدمة	
+{UCPMAIN7}	إلغاء تغيبر الخدمة	
+{UCPMAIN8}	الخروج	
+{UCPMAIN9}	المستخدم	
+{UCPMAIN10}	تاريخ	
+{UCPMAIN11}	نسخة	
+{UCPMAIN12}	تعديل  بياناتك	
+{UCPMAIN13}	لوحة تحكم العميل	
+		
+// UCP user's details		
+		
+{USRDET0}	تفاصيل المستخدم	
+{USRDET1}	معلومات حسابك الشخصى	
+{USRDET2}	اسم المستخدم	
+{USRDET3}	نوع الاشتراك	
+{USRDET4}	حالة الاشتراك	
+{USRDET5}	الاى بى الثابت	
+{USRDET6}	عنوان جهازك	
+{USRDET7}	التسجيل بالماك ادريس	
+{USRDET8}	الرصيد	
+{USRDET9}	البيانات الشخصية	
+{USRDET10}	شركة	
+{USRDET11}	رقم التليفون الارضى	
+{USRDET12}	رقم الهاتف المحمول	
+{USRDET13}	عنوان	
+{USRDET14}	المنطقه او الحى 	
+{USRDET15}	الرقم البريدى 	
+{USRDET16}	رقم البطاقه القومية	
+{USRDET17}	بيانات الخدمة	
+{USRDET18}	الخدمة الحاليه	
+{USRDET19}	نوع الخدمة	
+{USRDET20}	سرعه التصفح	
+{USRDET21}	سرعه التحميل	
+{USRDET22}	تاريخ تغير الخدمة 	
+{USRDET23}	الخدمة التى سيتم التغير اليها	
+{USRDET24}	الاستهلاك المقرر لك	
+{USRDET25}	الدونلود المتاح لك 
+{USRDET26}	الابلود المتاح لك	
+{USRDET27}	تاريخ انتهاء الاشتراك	
+{USRDET28}	الوقت المتاح عبر الإنترنت	
+{USRDET29}	الدونلود اليومى المتاح لك
+{USRDET30}	الابلود اليومى المتاح لك	
+{USRDET31}	اجمالى الوقت اليومى المتاح لك	
+{USRDET32}	اجمالى التحميل المتاح لك	
+{USRDET33}	اجمالى التحميل اليومى المتاح لك	
+{USRDET34}	الاسم الاول	
+{USRDET35}	اسم العائلة	
+{USRDET36}	بلد	
+{USRDET37}	المدينه	
+{USRDET38}	البريد الإلكتروني	
+{USRDET39}	تفاصيل واي فاي	
+{USRDET40}	الاكسس بوينت	
+{USRDET41}	مستوى إشارة	
+{USRDET42}	SNR	
+{USRDET43}	CQ	
+{USRDET44}	اللغه	
+{USRDET45}	الحالي IP
+		
+// UCP confirm internal payment		
+		
+{CFMINTPM0}	تأكيد الدفع الداخلي	
+{CFMINTPM1}	سيتم خصم المبلغ التالى من رصيدك الحالى	
+{CFMINTPM2}	السعر الإجمالي	
+{CFMINTPM3}	تأكيد وأنهاء	
+		
+// Paypal Website Payments Pro		
+		
+{PPCC0}	       دفع باي بال بطاقة الائتمان	
+{PPCC1}	       صاحب الكارت
+{PPCC2}	       الاسم الاول     	
+{PPCC3}	       اسم العائلة	
+{PPCC4}	       نوع الكارت
+{PPCC5}	       رقم الكارت
+{PPCC6}	       تاريخ انتهاء الصلاحية	
+{PPCC7}	       عدد التحقق من الكروت      
+{PPCC8}	       عنوان الفواتير	
+{PPCC9}	       العنوان 1	
+{PPCC10}	العنوان 2	
+{PPCC11}	المنطقه او الحى 	
+{PPCC12}	المدينه	
+{PPCC13}	الرقم البريدى 	
+{PPCC14}	بلد	
+{PPCC15}	السعر الإجمالي	
+{PPCC16}	اختياري	
+{PPCC17}	5 أو 9 أرقام	
+{PPCC18}	اتمام الخدمة	
+{PPCC19}	رقم الإصدار	
+{PPCC20}	(فقط للتبديل / مايسترو، سولو)	
+		
+// Paypal API error		
+		
+{PPAPIERR0}	الخطأ باي بال	
+{PPAPIERR1}	وذكرت بوابة الدفع مشكلة	
+{PPAPIERR2}	رقم الخطأ	
+{PPAPIERR3}	رسالة قصيرة	
+{PPAPIERR4}	رسالة طويلة	
+		
+// Paypal checkout details		
+		
+{PPEXPCD0}	باي بال تفاصيل الخروج	
+{PPEXPCD1}	كنت على وشك أن دفع المبلغ التالية	
+{PPEXPCD2}	السعر الإجمالي	
+{PPEXPCD3}	عنوان الشحن	
+{PPEXPCD4}	الاسم الكامل	
+{PPEXPCD5}	الشارع 1	
+{PPEXPCD6}	الشارع 2	
+{PPEXPCD7}	المنطقه او الحى 	
+{PPEXPCD8}	المدينه	
+{PPEXPCD9}	الرقم البريدى 	
+{PPEXPCD10}	بلد	
+{PPEXPCD11}	اتمام الخدمة	
+		
+// UCP Paypal Website Payments Standard redirection		
+		
+{PPSTDRED0}	إعادة توجيه ...	
+{PPSTDRED1}	انقر على الزر أدناه ان لم يتم تحويلك الى  باي بال في غضون 5 ثوان	
+		
+// UCP edit user		
+		
+{UCPEDITUSR0}	 تعديل  الحساب	
+{UCPEDITUSR1}	الاسم الاول	
+{UCPEDITUSR2}	اسم العيله	
+{UCPEDITUSR3}	عنوان	
+{UCPEDITUSR4}	المنطقه او الحى 	
+{UCPEDITUSR5}	الرقم البريدى 	
+{UCPEDITUSR6}	بلد	
+{UCPEDITUSR7}	المدينه	
+{UCPEDITUSR8}	رقم التليفون الارضى	
+{UCPEDITUSR9}	رقم التليفون المحمول	
+{UCPEDITUSR10}	البريد الإلكتروني	
+{UCPEDITUSR11}	شركة	
+{UCPEDITUSR12}	رقم البطاقه القومى
+{UCPEDITUSR13}	هذه العلامة * تعنى خانه لابد من كتابتها	
+{UCPEDITUSR14}	اتمام الخدمة	
+{UCPEDITUSR15}	تنبيه عبر البريد الإلكتروني	
+{UCPEDITUSR16}	رسائل موبيل للتنبيه	
+{UCPEDITUSR17}	لغة	
+		
+// REG New user main		
+		
+{NUSRMAIN0}	تاريخ	
+{NUSRMAIN1}	نسخة	
+{NUSRMAIN2}	 تسجيل حساب جديد	
+		
+// REG New user registration form (user name mode)		
+		
+{NUSRREGNM0}	تسجيل الحساب عن طريق اسم المستخدم	
+{NUSRREGNM1}	اسم المستخدم	
+{NUSRREGNM2}	لغة	
+{NUSRREGNM3}	رقم البطاقه القومية	
+{NUSRREGNM4}	الاسم الاول	
+{NUSRREGNM5}	اسم العيله	
+{NUSRREGNM6}	عنوان	
+{NUSRREGNM7}	المنطقه او الحى 	
+{NUSRREGNM8}	الرقم البريدى 	
+{NUSRREGNM9}	بلد	
+{NUSRREGNM10}	المدينه	
+{NUSRREGNM11}	رقم التليفون الارضى	
+{NUSRREGNM12}	رقم الهاتف المحمول	
+{NUSRREGNM13}	عنوان البريد الإلكتروني	
+{NUSRREGNM14}	البروفيلات لنظام الدفع المسبق	
+{NUSRREGNM15}	(1-32 حرفا)	
+{NUSRREGNM16}	(1-32 حرفا)	
+{NUSRREGNM17}	تسجيل حساب	
+{NUSRREGNM18}	هذه العلامة * تعنى خانه لابد من كتابتها	
+{NUSRREGNM19}	أوافق على الشروط والأحكام	
+{NUSRREGNM20}	على سبيل المثال 035040302
+{NUSRREGNM21}	على سبيل المثال 201144090379	
+{NUSRREGNM22}	رمز الحماية	
+		
+// REG New user registration form (mobile number mode)		
+		
+{NUSRREGMB0}	تسجيل الحساب عن طريق رقم الجوال	
+{NUSRREGMB1}	رقم الهاتف المحمول	
+{NUSRREGMB2}	الاسم الاول	
+{NUSRREGMB3}	اسم العيله	
+{NUSRREGMB4}	عنوان	
+{NUSRREGMB5}	المنطقه او الحى 	
+{NUSRREGMB6}	الرقم البريدى 	
+{NUSRREGMB7}	بلد	
+{NUSRREGMB8}	المدينه	
+{NUSRREGMB9}	رقم التليفون الارضى	
+{NUSRREGMB10}	عنوان البريد الإلكتروني	
+{NUSRREGMB11}	رقم البطاقه القومية	
+{NUSRREGMB12}	البروفيلات لنظام الدفع المسبق	
+{NUSRREGMB13}	هذه العلامة * تعنى خانه لابد من كتابتها	
+{NUSRREGMB14}	أوافق على الشروط والأحكام	
+{NUSRREGMB15}	تسجيل حساب	
+{NUSRREGMB16}	لغة	
+{NUSRREGMB17}	على سبيل المثال 201144090379	
+{NUSRREGMB18}	رمز الحماية	
+		
+// REG New user created		
+		
+{USRCRTD0}	سجلت حساب	
+{USRCRTD1}	تم تفعيل حسابك	
+{USRCRTD2}	اسم المستخدم الخاص بك	
+{USRCRTD3}	كلمة السر
+{USRCRTD4}	اضغط هنا للدخول الى الانترنت وقم بكتابه اسم المستخدم والباس ورد	
+{USRCRTD5}	اضغط هنا للدخول الى حسابك وبياناتك الشخصيه	
+		
+// REG New user created		
+		
+{BUYIAS0}	 شراء خدمة الوصول الفوري	
+{BUYIAS1}	يحتاجون إلى الوصول الفوري دون تسجيل؟	
+{BUYIAS2}	لغة	
+		
+// IAS list		
+		
+{IASLIST0}	اسم الخدمة	
+{IASLIST1}	السعر	
+		
+// IAS select paymode		
+		
+{IASSPM0}	حدد طريقة الدفع	
+{IASSPM1}	أنت على وشك شراء خدمة الوصول الفوري التالية	
+{IASSPM2}	اسم الخدمة	
+{IASSPM3}	السعر الإجمالي	
+{IASSPM4}	وسائل الدفع المتاحة	
+{IASSPM5}	بطاقة إئتمان	
+{IASSPM6}	باي بال	
+{IASSPM7}	التالي>	
+{IASSPM8}	عنوان البريد الإلكتروني	
+{IASSPM9}	رقم الهاتف المحمول	
+{IASSPM10}	على سبيل المثال 201144090379	
+{IASSPM11}	هذه العلامة * تعنى خانه لابد من كتابتها	
+		
+// IAS checkout details		
+		
+{IASEXPCD0}	باي بال تفاصيل الخروج	
+{IASEXPCD1}	كنت على وشك أن دفع المبلغ التالية	
+{IASEXPCD2}	السعر الإجمالي	
+{IASEXPCD3}	عنوان الشحن	
+{IASEXPCD4}	الاسم الكامل	
+{IASEXPCD5}	الشارع 1	
+{IASEXPCD6}	الشارع 2	
+{IASEXPCD7}	المنطقه او الحى 	
+{IASEXPCD8}	المدينه	
+{IASEXPCD9}	الرقم البريدى 	
+{IASEXPCD10}	بلد	
+{IASEXPCD11}	اتمام الخدمة	
+		
+// IAS buy main		
+		
+{PIASMAIN0}	 شراء خدمة الوصول الفوري	
+{PIASMAIN1}	تاريخ	
+{PIASMAIN2}	نسخة	
+		
+// ACP list syslog		
+		
+{SYSLOG0}	سجل النظام	
+{SYSLOG1}	التاريخ والوقت	
+{SYSLOG2}	اسم المدير	
+{SYSLOG3}	IP	
+{SYSLOG4}	وصف الحدث	
+{SYSLOG5}	بيانات الحدث	
+
+// ACP email form
+
+{EMAIL0}	إرسال بريد إلكتروني
+{EMAIL1}	المستقبل
+{EMAIL2}	عنوان الرسالة
+{EMAIL3}	الموضوع
+{EMAIL4}	إرسال الرسالة
+
+// ACP bulk email		
+		
+{BULKMAIL0}	بريد اليكترونى للجميع	
+{BULKMAIL1}	مجموعة	
+{BULKMAIL2}	موضوع	
+{BULKMAIL3}	رسالة	
+{BULKMAIL4}	يمكنك اضافه علامات متاحه مثل: {FIRSTNAME}، {LASTNAME}	
+{BULKMAIL5}	إرسال الآن	
+
+// ACP SMS form
+
+{SMS0}		إرسال رسالة قصيرة SMS
+{SMS1}		المستقبل
+{SMS2}		الرسالة
+{SMS3}		إرسال الرسالة
+
+// ACP bulk SMS		
+		
+{BULKSMS0}	رسائل موبيل للجميع	
+{BULKSMS1}	مجموعة	
+{BULKSMS2}	رسالة	
+{BULKSMS3}	يمكنك اضافه علامات متاحه مثل: {FIRSTNAME}، {LASTNAME}	
+{BULKSMS4}	إرسال الآن	
+
+// UCP, IAS confirm SagePay payment
+
+{PAYSAGEPAY0}	Sagepay purchase
+{PAYSAGEPAY1}	تفاصيل الطلب
+{PAYSAGEPAY2}	خطة الخدمة
+{PAYSAGEPAY3}	الكمية
+{PAYSAGEPAY4}	السعر الكلي
+{PAYSAGEPAY5}	التالي <
+
+// UCP, IAS confirm Payfast payment		
+		
+{PAYPAYFAST0}	Payfast شراء	
+{PAYPAYFAST1}	نظرة عامة ترتيب	
+{PAYPAYFAST2}	اسم الخدمة
+{PAYPAYFAST3}	كمية	
+{PAYPAYFAST4}	السعر الإجمالي	
+{PAYPAYFAST5}	التالي>	
+		
+// UCP, IAS confirm Citrus payment
+
+{PAYCITRUS0}	Citrus Payments purchase
+{PAYCITRUS1}	Order overview
+{PAYCITRUS2}	Service plan
+{PAYCITRUS3}	Amount
+{PAYCITRUS4}	Total price
+{PAYCITRUS5}	Next >
+
+// UCP, IAS confirm Paytm payment
+
+{PAYPAYTM0}	Paytm purchase
+{PAYPAYTM1}	Order overview
+{PAYPAYTM2}	Service plan
+{PAYPAYTM3}	Amount
+{PAYPAYTM4}	Total price
+{PAYPAYTM5}	Next >
+
+// UCP, IAS confirm 2CO payment		
+		
+{PAY2CO0}	2Checkout شراء	
+{PAY2CO1}	نظرة عامة ترتيب	
+{PAY2CO2}	اسم الخدمة
+{PAY2CO3}	كمية	
+{PAY2CO4}	السعر الإجمالي	
+{PAY2CO5}	التالي>	
+		
+// UCP payment failure		
+		
+{PMFAILURE0}	صفقة فاشلة	
+{PMFAILURE1}	غير قادر على تحقيق الصفقة	
+{PMFAILURE2}	إشارة	
+{PMFAILURE3}	استجابة	
+{PMFAILURE4}	وصف	
+		
+// UCP payment success (payment gateway)		
+		
+{PMSUCUCP0}	نجاح الصفقة	
+{PMSUCUCP1}	تفاصيل الصفقة	
+{PMSUCUCP2}	استجابة بوابة	
+{PMSUCUCP3}	إشارة الدفع	
+{PMSUCUCP4}	السعر الإجمالي	
+{PMSUCUCP5}	أشكركم على النظام!	
+{PMSUCUCP6}	تظهر فاتورة للطباعة	
+		
+// UCP payment success (internal)		
+		
+{PMSUCUCPINT0}	نجاح الصفقة	
+{PMSUCUCPINT1}	تم اضافه الخدمه بنجاح	
+		
+// IAS payment success (payment gateway)		
+		
+{PMSUCIAS0}	نجاح الصفقة	
+{PMSUCIAS1}	تفاصيل الصفقة	
+{PMSUCIAS2}	استجابة بوابة	
+{PMSUCIAS3}	إشارة الدفع	
+{PMSUCIAS4}	كمية	
+{PMSUCIAS5}	تسجيل اسم المستخدم وكلمة المرور التاليين	
+{PMSUCIAS6}	اسم المستخدم	
+{PMSUCIAS7}	كلمة السر
+{PMSUCIAS8}	تظهر فاتورة للطباعة	
+{PMSUCIAS9}	أشكركم على النظام!	
+{PMSUCIAS10}	تسجيل الدخول نقطة ساخنة	
+{PMSUCIAS11}	لوحة تحكم العضو	
+		
+// authorize.net get CC data		
+		
+{ANETCC0}	دفع بطاقة الائتمان Authorize.net	
+{ANETCC1}	نوع الكارت
+{ANETCC2}	رقم الكارت	
+{ANETCC3}	تاريخ انتهاء الصلاحية	
+{ANETCC4}	عدد التحقق من الكروت
+{ANETCC5}	الاسم الاول	
+{ANETCC6}	اسم العائلة	
+{ANETCC7}	عنوان	
+{ANETCC8}	الالمنطقه او الحى  او الحى 	
+{ANETCC9}	الرقم البريدى 	
+{ANETCC10}	بلد	
+{ANETCC11}	المدينه	
+{ANETCC12}	السعر الإجمالي	
+{ANETCC13}	اتمام الخدمة	
+{ANETCC14}	CCV	
+		
+// Activate self registered account by SMS		
+		
+{ACTACCSMS0}	تنشيط الحساب	
+{ACTACCSMS1}	ادخل رمز التفعيل إرسالها إلى هاتفك المحمول	
+{ACTACCSMS2}	رمز التفعيل	
+{ACTACCSMS3}	هذه العلامة * تعنى خانه لابد من كتابتها	
+{ACTACCSMS4}	اتمام الخدمة	
+		
+// Activate self registered account by email		
+		
+{ACTACCEMAIL0}	تنشيط الحساب	
+{ACTACCEMAIL1}	ادخل رمز التفعيل إرسالها إلى عنوان البريد الإلكتروني الخاص بك	
+{ACTACCEMAIL2}	رمز التفعيل	
+{ACTACCEMAIL3}	هذه العلامة * تعنى خانه لابد من كتابتها	
+{ACTACCEMAIL4}	اتمام الخدمة	
+		
+// UCP send card verification code in SMS		
+		
+{VERIFYCARD0}	ارسال رمز التحقق فى رساله	
+{VERIFYCARD1}	رقم الهاتف المحمول	
+{VERIFYCARD2}	قم بملء هذه الحقول وسوف يوم النظام بأرسال رساله تحقق جديدة لديك	
+{VERIFYCARD3}	أدخل رقم هاتفك المحمول في تنسيق الدولي	
+{VERIFYCARD4}	مثال: 201144090379	
+{VERIFYCARD5}	ارسال رساله الان على الموبيل
+		
+// UCP enter card verification code		
+		
+{VERCARDCODE0}	أدخل رمز التحقق	
+{VERCARDCODE1}	ادخل رمز التحقق الذى وصل الى هاتفك	
+{VERCARDCODE2}	رمز التحقق	
+{VERCARDCODE3}	تأكد من إدخال رمز التحقق في شكل مناسب	
+{VERCARDCODE4}	اتمام الخدمة	
+		
+// Info window		
+		
+{INFO0}	رسالة النظام	
+		
+// Password recovery main template		
+		
+{PASSWDMAIN0}	تاريخ	
+{PASSWDMAIN1}	نسخة	
+{PASSWDMAIN2}	استعادة كلمة السر
+		
+// Password recovery get data		
+		
+{PASSWDREC0}	استعادة كلمة السر	
+{PASSWDREC1}	طريقه تفعيل الباس ورد
+{PASSWDREC2}	البريد الإلكتروني	
+{PASSWDREC3}	رسالة قصيرة	
+{PASSWDREC4}	عنوان البريد الإلكتروني	
+{PASSWDREC5}	رقم الهاتف المحمول	
+{PASSWDREC6}	على سبيل المثال 201144090379	
+{PASSWDREC7}	اتمام الخدمة	
+{PASSWDREC8}	لغة	
+{PASSWDREC9}	اسم المستخدم	
+{PASSWDREC10}	هذه العلامة * تعنى خانه لابد من كتابتها	
+		
+// Password recovery enter SMS verification code		
+		
+{PASSWDGETSMS0}	التحقق من كلمة السر الجديدة	
+{PASSWDGETSMS1}	رمز التفعيل	
+{PASSWDGETSMS2}	هذه العلامة * تعنى خانه لابد من كتابتها	
+{PASSWDGETSMS3}	اتمام الخدمة	
+{PASSWDGETSMS4}	 من فضلك قم بالتحقق من رمز التحقق على موبيلك
+		
+// menu items		
+		
+{MENU00}	النظام
+{MENU0000}	الرئيسية	
+{MENU0001}	إعدادات النظام	
+{MENU0002}	تسجيل الخروج	
+		
+{MENU01}	مشتركين	
+{MENU0100}	قائمة المشتركين	
+{MENU0101}	البحث عن المشتركين	
+{MENU0102}	مشترك  جديد	
+{MENU0103}	مجموعات المشتركين	
+{MENU0104}	مجموعة مشتركين جديدة	
+		
+{MENU02}	الخدمات
+{MENU0200}	قائمة الخدمات
+{MENU0201}	إنشاء خدمة جديدة	
+{MENU0202}	التغييرات المقررة
+{MENU0203}	تغيير تاريخ الخدمة	
+		
+{MENU03}	المدراء
+{MENU0300}	قائمة المدراء
+{MENU0301}	إنشاء مدير جديد	
+		
+{MENU04}	الشبكات	
+{MENU0400}	قائمة الشبكات	
+{MENU0401}	إنشاء شبكة جديدة	
+		
+{MENU05}	الأكسسات	
+{MENU0500}	قائمة الأكسسات	
+{MENU0501}	إنشاء آكسس جديد	
+		
+{MENU06}	الأجهزة
+{MENU0600}	قائمة الأجهزة
+{MENU0601}	إنشاء أجهزة جديدة	
+		
+{MENU07}	الأيبيهات 	
+{MENU0700}	مجموعه الأيبيهات 
+{MENU0701}	إنشاء  أيبيهات جديدة	
+		
+{MENU08}	فواتير	
+{MENU0800}	البحث عن الفواتير	
+{MENU0801}	انشاء فواتير آجلة الدفع	
+		
+{MENU09}	الكروت	
+{MENU0900}	كروت الشحن	
+{MENU0901}	قائمة الكروت المدفوعة مسبقا 
+{MENU0902}	قائمة كروت شحن الرصيد
+{MENU0903}	البحث عن كروت شحن الرصيد	
+{MENU0904}	انشاء الكروت
+{MENU0905}	إحصاءات الكروت
+		
+{MENU10}	إنترنت فوري
+{MENU1000}	قائمة المشتركين 
+{MENU1001}	البروفيلات الجاهزة للمشتركين	
+{MENU1002}	انشاء بروفيل جديد	
+
+{MENU11}	التقارير
+{MENU1100}	المشتركين عبر الإنترنت الآن
+{MENU1101}	المسجلين بواسطة المودم
+{MENU1102}	تقرير الإستهلاك
+{MENU1103}	ملخص الإستهلاك
+{MENU1104}	التقرير اليومي للإستهلاك
+{MENU1105}	البحث عن تفاصيل استهلاك محدد
+{MENU1106}	تقرير الاتصال
+{MENU1107}	سجل التوثيق
+{MENU1108}	اخر syslog احداث
+{MENU1109}	تصفح syslog
+{MENU1110}	معلومات النظام
+{MENU1111}	إحصائيات النظام
+
+{MENU12}	ادوات السيستم 	
+{MENU1200}	ارسال بريد الى كل العملاء	
+{MENU1201}	رسائل الموبيل للعملاء 	
+{MENU1202}	تشغيل السيستم 	
+{MENU1203}	ايقاف السيستم 
+{MENU1204}	إعادة تشغيل السيستم	
+{MENU1205}	إعادة بناء وهيكلة العملاء 	
+{MENU1206}	تشغيل توزيع الايبيهات	
+{MENU1207}	ايقاف توزيع الايبيهات	
+{MENU1208}	اعادة تشغيل توزيع الايبيهات	
+{MENU1209}	اعادة بناء وهيكلة توزيع الايبيهات	
+
+// end

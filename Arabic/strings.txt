@@ -1,0 +1,589 @@
+//
+// Radius Manager string definitions file
+//
+// There must be a TAB character between token and strings
+//
+
+// links
+
+href_trafficreport	تقارير إستخدام العميل
+href_trafrepdly				تقارير الإستخدام اليومي للعميل
+href_addcredits	دفع فاتورة للعميل															
+href_addmoney	إضافة الرصيد للعميل															
+href_postpaidbilling	الدفع المؤخر للعميل															
+href_listinvoices	قائمة الفواتير															
+href_chgsrv	تغير الخدمة 															
+href_listsrvhistory	تاريخ تغير الخدمة															
+href_deluser	حذف															
+href_listpostauth	سجل التوثيق															
+href_disconnuser	قطع الإتصال 															
+href_listconn	تقارير الإتصال															
+href_cancel	إلغاء															
+href_register_acc	تسجيل حساب جديد															
+href_verify_acc	التحقق من الحساب															
+href_edit	تعديل															
+href_selfdisconn	اضغط هنا للدخول الى لوحه التحكم الخاصه بك 															
+href_sendemail				email
+href_sendsms				SMS
+																
+// strings																
+
+str_cardser				تسلسل البطاقة
+str_unpaidinv	وجدت فاتورة غير مدفوعة															
+str_unpaidgraceinv	انتهت فترة سماح															
+str_availcolumns	الأعمدة المتوفرة															
+str_selectall	تحديد الكل															
+str_selectnone	إلغاء الجميع															
+str_pooltype_docsis	DOCSIS															
+str_pooltype_radius	RADIUS															
+str_none	لا شيء															
+str_view	عرض وطباعة الفاتورة															
+str_ref	المرجع.															
+str_unreg_user	غير مسجل															
+str_auto_renew	التجديد التلقائي															
+str_regdisabled	تم تعطيل التسجيل الذاتي															
+str_emailsubjexpiry	سوف ينتهي اشتراكك قريبا															
+str_emailsubjrenewed	وقد تم تجديد اشتراكك															
+str_emailsubjcantrenew	مشكلة فى تجديد اشتراكك															
+str_emailsubjsrvchg	تم تفعيل الخدمة الجديدة الآن															
+str_emailsubjwelcome	مرحبا عزيزي المستخدم															
+str_emailsubjselfreg	عميل جديد بالشبكة سجل نفسه															
+str_emailsubjiasreg	حساب فوري جديد بالشبكة									
+str_emailsubjactpsw	تفعيل كلمة المرور الجديدة															
+str_emailsubjnewpsw	تم تفعيل كلمة المرور الجديدة 															
+str_emailsubjactacc	تفعيل حسابك الجديد		
+str_emailsubjdepositadd			زيادة الرصيد
+str_yymmdd	YYYY-MM-DD															
+str_yymmddhhmmss	YYYY-MM-DD HH: MM: SS															
+str_resetctr	تحذير هام جدا <BR> <BR>! عند تغيير الخدمة لأخرى ستخسر ما تبقى من ايام واستهلاك للتحميل !<BR> <BR>  وأيضا يمكنك الرجوع لنفس الخدمة السابقة بعد تغيريها  !															
+str_finished	منتهي															
+str_completed	تمت															
+str_cancelled	ألغيت															
+str_paymode_cash	نقدي															
+str_paymode_transfer	تحويل بنكي															
+str_paymode_internal	داخلي															
+str_paymode_card	كارت															
+str_paymode_online	أونلاين															
+str_moneyadd	إضافه الرصيد															
+str_addmode	إنتبه واحذر جيداً فى شراء هذه الخدمة : انت الآن على وشك شراء سعة إضافيه فقط وليس تمديد لفترة إشتراكك															
+str_monthly_srv	الخدمة الشهرية															
+str_fillupman_srv	الرصيد															
+str_fillupcard_srv	كارت شحن رصيد													
+str_system	السيستم															
+str_na	لم يحدد حتى الآن 															
+str_notavail	غير متوفرة															
+str_dynamic	أوتوماتيك															
+str_hide	-															
+str_datarate	كيلو بايت في الثانية															
+str_unlimited	غير محدود															
+str_next_page	>>															
+str_prev_page	<<															
+str_first_page	أولى															
+str_last_page	أخيرة															
+str_no_limit	غير محدود															
+str_never_expires	لا تنتهي أبداً 															
+str_default_fullname	إسم مستخدم غير معروف															
+str_acc_disabled	اشتراك موقوف 															
+str_acc_expired	انتهت فترة اشتراكك															
+str_acc_notverified	غير مفعل															
+str_acc_active	اشتراكك نشط															
+str_acc_limit	<-limit															
+str_yes	نعم															
+str_no	لا															
+str_any	الكل															
+str_all	جميع															
+str_all_postpaid	جميع الخدمات آجلة الدفع															
+str_never_seen	أبدا															
+str_online	متواجد على الانترنت															
+str_offline	غير متواجد حاليا															
+str_unregged	كروت الشحن مسبقة الدفع															
+str_regged	كارت شحن رصيد															
+str_acctype_regular	منتظم															
+str_acctype_maconly	حساب بالماك ادريس															
+str_acctype_carduser	بطاقة مسبقة الدفع															
+str_acctype_aclmikrotik	الميكروتك															
+str_acctype_aclstaros	StarOS 															
+str_acctype_ias	خدمة الوصول الفوري															
+str_acctype_docsis	DOCSIS															
+str_expiremode_nminutes	عدد الدقائق من تفعيل الكارت يساوى								
+str_expiremode_nhours	عدد الساعات من تفعيل الكارت يساوى								
+str_expiremode_ndays	عدد الايام من تفعيل الكارت يساوى							
+str_expiremode_nmonths	عدد الشهور من تفعيل الكارت يساوى								
+str_hours	ساعات															
+str_unknown_nas	شبكة غير معروفه															
+str_selfreg	قام العميل بأنشاء حساب لنفسه															
+str_exchg_rate	سعر الصرف:															
+str_emailpreview	إرسال معاينة البريد الإلكتروني إلى مسؤول															
+str_emailreal	إرسال بريد إلكتروني إلى															
+str_smsreal	إرسال رساله الى															
+str_home	العودة للصفحه الرئيسية															
+str_done	تم الانتهاء 					
+str_totals	المجموع:															
+str_id	الاى دى 				
+str_pin	الرقم				
+str_password	كلمة السر					
+str_trfsumcsv1	اسم المستخدم															
+str_trfsumcsv2	الاسم الأول															
+str_trfsumcsv3	اسم العائلة															
+str_trfsumcsv4	الوقت على الانترنت															
+str_trfsumcsv5	دونلود					
+str_trfsumcsv6	ابلود					
+str_trfsumcsv7	مجموع															
+str_lstusrcsv1	اسم المستخدم															
+str_lstusrcsv2	بروفيل					
+str_lstusrcsv3	انتهاء															
+str_lstusrcsv4	تحميل الحد															
+str_lstusrcsv5	حد تحميل															
+str_lstusrcsv6	إجمالي الحد															
+str_lstusrcsv7	الحد الجهوزية															
+str_lstusrcsv8	CPE IP															
+str_lstusrcsv9	CM IP															
+str_lstusrcsv10	CM MAC															
+str_lstusrcsv11	الاسم الأول															
+str_lstusrcsv12	اسم العائلة															
+str_lstusrcsv13	إسم الشركة															
+str_lstusrcsv14	العنوان															
+str_lstusrcsv15	المدينة															
+str_lstusrcsv16	رقم البريدي					
+str_lstusrcsv17	البلد															
+str_lstusrcsv18	المحافظة															
+str_lstusrcsv19	تليفون ارضي					
+str_lstusrcsv20	الموبيل					
+str_lstusrcsv21	البريد الإلكتروني															
+str_lstusrcsv22	مسجل															
+str_lstusrcsv23	آخر تسجيل خروج															
+str_lstusrcsv24	تعليق															
+str_lstusrfastcsv1	إسم المستخدم															
+str_lstusrfastcsv2	الإسم الأول															
+str_lstusrfastcsv3	إسم العائلة															
+str_lstusrfastcsv4	العنوان															
+str_lstusrfastcsv5	المدينة															
+str_lstusrfastcsv6	الرمز البريدي															
+str_lstusrfastcsv7	البلد															
+str_lstusrfastcsv8	المحافظة															
+str_lstusrfastcsv9	تليفون ارضي 						
+str_lstusrfastcsv10	الموبيل						
+str_lstusrfastcsv11	البريد الإلكتروني															
+str_lstusrfastcsv12	تعليق															
+str_lstinvcsv1	تاريخ															
+str_lstinvcsv2	رقم الفاتورة															
+str_lstinvcsv3	نوع الفاتورة															
+str_lstinvcsv4	وصف															
+str_lstinvcsv5	التي أنشأتها															
+str_lstinvcsv6	العميل 					
+str_lstinvcsv7	السعر															
+str_lstinvcsv8	الرصيد															
+str_lstinvcsv9	إجمالي الدونلود المضاف															
+str_lstinvcsv10	إجمالي الدونلود المتاح															
+str_lstinvcsv11	إجمالي الابلود المتاح															
+str_lstinvcsv12	اجمالى الابلود المتاح															
+str_lstinvcsv13	اجمالى التحميل المضاف															
+str_lstinvcsv14	إجمالي البايت المتاحة															
+str_lstinvcsv15	الوقت المتاح															
+str_lstinvcsv16	الوقت المتاح عبر الإنترنت															
+str_lstinvcsv17	تم اضافه أيام															
+str_lstinvcsv18	إنتهاء															
+str_lstinvcsv19	تعليق															
+str_lstinvcsv20	مدفوع															
+str_lstrflcard1	PIN															
+str_lstrflcard2	مجموعة															
+str_lstrflcard3	تفعيلها من خلال															
+str_lstrflcard4	تم تنشيطه في														
+str_lstrflcard5	إنتهاء															
+str_lstrflcard6	قيمة الكارت الاجمالية															
+str_lstrflcard7	أنشئت بتاريخ															
+str_exportcsv	حمل الملف															
+str_found	نتيجه البحث:															
+str_gen_invoices	إنشاء الفواتير للمستخدمين الدفع الآجل															
+str_combined_srv	خدمة الإنترنت جنباً إلى جنب															
+str_printallinv	طباعة الفواتير															
+str_intsservice	خدمة الإنترنت															
+str_running	يعمل بالفعل															
+str_not_running	 <font color="#FF0000">لايعمل 															
+str_availbalance	الرصيد المتاح															
+str_paypal_redir_ucp	اضغط هنا لإتمام الصفقة															
+str_paypal_redir_ias	اضغط هنا للحصول على معيار المحاسبة الدولي رقم CODE															
+str_enabled	تمكين															
+str_ok	تم بالفعل															
+str_err	خطأ															
+str_skipinvzero	تخطي -سعر يساوى صفر															
+str_skipinvdisacc	تخطي - حساب معطل															
+																
+// error messages																
+																
+err_wrong_url	الصفحة التي تحاول الوصول اليها غير متوفره															
+err_invalid_actcode	رمز التفعيل غير صحيح															
+err_wrongusermail	اسم المستخدم غير صحيح أو عنوان البريد الإلكتروني															
+err_wrongusermobile	 إسم المستخدم أو رقم الهاتف غير صحيح															
+err_no_groupname	لم يتم اختيار مجموعة!															
+err_nothing_to_print	لا شيء للطباعة!															
+err_pdt	لم يحصل الملقم على اى دى للموقع!															
+err_paypal_unknown	الخطأ "باي بال" غير معروف!															
+err_unknown	خطأ غير معروف!															
+err_raddb	الخ/ raddb لا يمكن الوصول إليها!															
+err_clientsconf	/usr/local/etc/raddb/clients.conf لا يمكن الوصول إليها!															
+err_overlapping_interval	فترات متداخلة!															
+err_smsapi	خطاء فى الرسائل :															
+err_nopaymentmethod	يجب اختيار احد وسائل الدفع المتاحة!															
+err_acceptterms	يجب أن توافق على الشروط قبل تفعيل حساب جديد															
+err_no_remotehost	 لا يوجد مستضيف!															
+err_nodata	لا توجد بيانات!															
+err_daily_dlquota_reached	لقد وصلت الى حد استهلاكك اليومي من الدونلود!															
+err_daily_ulquota_reached	لقد وصلت الى حد استهلاكك اليومي من الابلود!															
+err_daily_totalquota_reached	لقد وصلت الى حد استهلاكك اليومي من التحميلات!															
+err_daily_timequota_reached	لقد انتهت المدة المخصصه لك فى استخدامك اليومي !															
+err_incorrect_account_type	نوع الحساب غير صحيح!															
+err_no_download_left	لقد وصلت الى حد الدونلود المخصص لك!															
+err_no_upload_left	لقد وصلت الى حد استهلاك الابلود المخصص لك!															
+err_no_total_left	لم يعد لديك مزيد من التحميلات المتاحه!															
+err_no_time_left	لم يعد لديك مزيد من وقت للاستخدام!															
+err_account_expired	انتهت صلاحية الحساب!															
+err_invalid_service	لا توجد خدمة!															
+err_invalid_mac	ماك ادريس غير صالح!															
+err_nas_not_allowed	لا يسمح لك لربط هذا NAS!															
+err_conn_not_allowed	لا يسمح اتصال الآن!															
+err_account_disabled	تم تعطيل الحساب!															
+err_account_not_verified	غير قادر على الدخول، لم يتم التحقق من الحساب!															
+err_firstname_invalid	الاسم الأول غير صالح!															
+err_lastname_invalid	الاسم الأخير غير صالح!															
+err_address_invalid	عنوان غير صالح!															
+err_city_invalid	مدينة غير صحيحة!															
+err_zip_invalid	رمز بريدي غير صالح!															
+err_country_invalid	لم يتم اختيار البلد!															
+err_state_invalid	لم يتم اختيار المحافظة!															
+err_phone_invalid	لابد ان يكون رقم الهاتف من ارقام فقط!															
+err_mobile_invalid	رقم الهاتف المحمول غير صالح!															
+err_mobile_alreadyused	رقم موبيل مستخدم بالفعل!															
+err_no_phone	لم يتم ادخال الرقم الارضي!															
+err_no_mobile	لم يتم ادخال رقم الموبيل!															
+err_email_invalid	عنوان البريد الإلكتروني غير صالح!															
+err_email_alreadyused	عنوان البريد الإلكتروني المستخدم بالفعل!															
+err_email_not_sent	لم يتم ارسال البريد الاليكترونى!															
+err_vatid_invalid	لم يتم وضع الاى دى الخاص بك!															
+err_sms_not_sent	لم يتم ارسال رساله!															
+err_currency_not_supported	نظام العملة غير معتمد!															
+err_currency_not_usd	!لابد ان يكون نظام الدفع بالدولار حتى يتم قبول العمليه															
+err_invalid_interval	فاصل غير صالح !															
+err_invalid_pool	مجموعه ايبيهات غير صالحه!															
+err_pool_overlaps	هذه الايبيهات تتعارض مع مجموعه ايبيهات اخرى!															
+err_pool_assigned	خطاء عند حذف الايبيهات!															
+err_no_poolname	لم تدخل اسم مجموعه الايبيهات!															
+err_no_cmtsname	لم تضع اسم الاكسس!															
+err_no_community	 SNMP Community!															
+err_no_apiuser	لم تدخل اليوزر الخاص ب api!															
+err_no_apipassword	لم تدخل كلمة المرور الخاصه ب api!															
+err_no_free_ip_cm	لا يوجد ايبيهات متاحة!															
+err_no_free_ip_cpe	لا يوجد مجموعة ايبيهات متاحة!															
+err_invalid_paymentopt	خيار الدفع غير صالح!															
+err_enter_cardnum_prepaid	خاصية الشحن لمستخدمين الدفع المسبق فقط!															
+err_descr_empty	لا يمكن ترك الوصف فارغ!															
+err_price_negative	لا يمكن ان يكون السعر بالسالب ابداً!															
+err_srv_change_no_srv	لا يوجد شىء لألغائه!															
+err_srv_change_postpaid_active	تم تعين خدمة الدفع المؤخر بالفعل اليوم!															
+err_changesrv_only_prepaid	يمكن للمستخدمين الدفع المسبق فقط تغيير الخدمات!															
+err_changesrv_prepaid_only	يمكن للمستخدمين الدفع المسبق فقط إختيار الخدمات!															
+err_op_not_allowed	غير مسموح لك بذلك او راجع  المدير !															
+err_chgpswucp_disabled	لا يسمح بتغيير كلمة السر!															
+err_buy_services_month_active	اشتراكك الشهري نشط بالفعل !															
+err_buy_services_no_credit	 لا يوجد رصيد كافى لاتمام هذه الخدمة برجاء شحن رصيد بستخدام الكروت او اتصل بالمدير 															
+err_buy_services_min_amount	الحد الأدنى للمبلغ هو															
+err_buy_services_amount	عدد او كمية خاطئة!															
+err_buy_services_prepaid	يمكن لمستخدمين الدفع المسبق فقط شراء الخدمات!															
+err_add_credits_balance	ليس لديك رصيد كاف !															
+err_login	اسم المستخدم غير صحيح أو كلمة المرور!															
+err_no_currency	لم تقم بختيار عمله!															
+err_traffic_add_unitprice	سعر الوحدة غير صحيح!															
+err_traffic_add_amount	عدد او كميه خاطئة!															
+err_traffic_add_monthly	فقط يمكنك اضافه شهر واحد لخدماتك!															
+err_traffic_add_additional	لا يمكنك إضافة ميغابايت إضافية قد انتهت صلاحيه خدمتك!															
+err_money_add_amount	مقدار الخطأ!															
+err_invoice_exists	فاتورة موجود بالفعل!															
+err_payout_already_submitted	تم ارجاع المبلغ بالفعل!															
+err_form_already_submitted	لقد تم تحديثها بالفعل!															
+err_srvchange_already_submitted	لقد تم تغير الخدمة بالفعل!															
+err_invoice_already_submitted	تم دفع الفاتوره للعميل بالفعل!															
+err_simuse_invalid	الاستخدام المتزامن غير متوفر وغير صالح!															
+err_card_already_gen	تم انشاء الكروت بالفعل!															
+err_card_downlimit	يجب أن يكون حمل حد الصفر أو أكبر عدد!															
+err_card_uplimit	يجب أن يكون الحد تحميل صفر أو greaternumber!															
+err_card_uptimelimit	يجب أن يكون الحد الوقت على الانترنت صفر أو عدد أكبر!															
+err_card_expired	تم انتهاء صلاحيه الكارت !															
+err_card_revoked	تم ايقاف هذا الكارت المدفوع مسبقا راجع المدير!															
+err_card_not_found	الكارت المدفوع مسبقا غير موجود!															
+err_card_no_srv	لم يتم تعيين خدمة!															
+err_account_locked	تم غلق الخدمة لادخال اكتر من رقم غير صالح راجع مدير الشبكة!															
+err_credits_invalid	لا يمكن ان يكون الرصيد بالسالب!															
+err_generating_ias	خطأ توليد حساب IAS!															
+err_adding_credits	خطأ في إضافة الرصيد!															
+err_dup_form	الصفقة مكررة!															
+err_card_invalid	رقم كارت مشحون من قبل او غير موجود!													
+err_cannot_create_file	لا يمكن إنشاء ملف!															
+err_cannot_write_file	لا يمكن إرسال الملف!															
+err_cannot_delete_file	لا يمكن حذف الملف!															
+err_card_expiration	تاريخ انتهاء الكارت غير صالح!															
+err_card_value	قيمة الكارت غير صالحة!											
+err_card_quantity	كمية غير صالحة!															
+err_card_secret	طول الرقم السرى غير صالح!														
+err_unit_price	ينبغي أن يكون السعر أكبر من الصفر!															
+err_unit_time	وحدة زمنية هي دائما أكبر من الصفر!															
+err_unit_trafficdl	وحدة الدونلود هي دائما أكبر من الصفر!															
+err_unit_trafficul	تحميل الابلود هي دائما أكبر من الصفر!															
+err_unit_trafficcomb	اجمالى وحدة التحميل هي دائما أكبر من الصفر!															
+err_addamount	مبلغ إضافي هو دائما أكبر من الصفر!															
+err_minamount	الحد الأدنى لا يمكن أن يكون صفر أو عدد سالب!															
+err_rest_manager	لا يمكن سرد الفواتير الا للمدير !															
+err_max_usernum	تم الوصول إلى العدد الأقصى من المستخدمين!															
+err_max_cmtsnum	تم التوصول إلى العدد الأقصى من CMTSs!															
+err_max_nasnum	تم الوصول إلى العدد الأقصى من الشبكات!															
+err_zero_payout	الرجاء إدخال مبلغ غير الصفر!															
+err_no_perm	ليس لديك صلاحيات كافيه للوصول الى هذه الخدمة راجع المدير !															
+err_mod_unavailable	وحدة غير متوفرة!															
+err_no_cts	نظام تتبع وصلات غير متوفرة في هذا الإصدار!															
+err_no_simuse_attr	لا في وقت واحد الاستخدام السمة في radcheck للمستخدم معين!															
+err_user_exists	حساب موجود بالفعل!															
+err_user_no_username	لم تم بكتابه اسم المستخدم!															
+err_user_mac_problem	MAC خاطىء!															
+err_user_not_found	العميل غير موجود!															
+err_manager_not_found	لم يتم العثور على مدير!															
+err_inv_not_found	فاتورة غير موجود!															
+err_user_name_length	عدد حروف اسم المستخدم غير صالح!															
+err_mac_cm	CM MAC غير صالح!															
+err_mac_cpe	CPE MAC غير صالح!															
+err_maccm_already_assigned	CM MAC تم تعينيها بالفعل لمستخدم اخر															
+err_maccpe_already_assigned	CPE MAC تم تعينيها بالفعل لمستخدام اخر															
+err_exp_date	تاريخ انتهاء الصلاحية غير صالح!															
+err_payment_date	تاريخ الدفع غير صالح!															
+err_username_not_valid	حرف غير صالح في اسم المستخدم!															
+err_managername_not_valid	اسم مدير غير صالح!															
+err_no_nasname	لم يتم تعريف اسم NAS!															
+err_no_apname	لم يتم تعريف اسم AP!															
+err_invalid_ip	عنوان IP غير صالح!															
+err_no_nassecret	لم تقم بأدخال كلمة السر!													
+err_no_naspassword	 لم يتم التعرف على كلة سر الشبكة!															
+err_nas_not_found	شبكة غير موجودة!															
+err_ap_not_found	AP غير موجود!															
+err_nas_exists	لقد قمت بأدخال هذا الاى بى الى شبكة اخرى بالفعل!															
+err_ap_exists	لقد قمت بأدخال اى بى الاكسس .لاكسس اخر بالفعل!															
+err_pool_not_found	تجمع IP غير موجود!															
+err_cmts_not_found	CMTS غير موجود!															
+err_psw_nomatch	كلمة المرور غير متطابقه اعد المحاوله مع كلمات صحيحه															
+err_psw_null	كلمة السر فارغه!															
+err_psw_length	كلمة مرور قصيره وغير صالحه															
+err_psw_oldpsw	لا تطابق كلمة السر الحالية!															
+err_psw_invalid	حرف غير صالح في كلمة السر!															
+err_cant_del_admin	لا يمكن حذف المدير العام!													
+err_only_superuser	هذه الخدمات فقط للمدير العام!														
+err_cant_add_zero_mb	لا يمكن إضافة صفر فى التحميل!															
+err_cant_add_zero_money	لا يمكن إضافة صفر من المال!															
+err_srv_no_srvname	لم تقم بكتابه اسم السرعه!															
+err_srv_not_found	الخدمة غير موجود!															
+err_srv_exists	خدمة موجود بالفعل!															
+err_srv_not_sel	لم يتم اختيار خدمة !															
+err_ip_format	خطاء فى كتابه الاى بى !															
+err_cm_ip_already_assigned	هذا الاى بى موجود بالفعل لمستخدم اخر															
+err_cpe_ip_already_assigned	هذه المجموعه موجودة بالفعل لمستخدم اخر															
+err_burst_dl	لا يمكن ان يكون معدل الدونلود اقل من المعدل الطبيعى للخدمة!															
+err_burst_ul	لا يمكن ان يكون معدل الابلود اقل من المعدل الطبيعى للخدمة!															
+err_priority	الأولوية هي صالحة بين 1 - 8!															
+err_ulbursttime	 لا يمكن ان يكون معدل وقت  الابلود بيساوى الصفر!															
+err_dlbursttime	لا يمكن ان يكون معدل الوقت للدونلود بيساوى الصفر!															
+err_cant_find_nas	 لم يتم العثور على الشبكة المطلوبه فى قاعده البيانات !															
+err_ias_no_srvname	لم يتم ادخال اسم الخدمة !															
+err_ias_price	يجب أن يكون السعر أكبر من الصفر!															
+err_ias_no_srv	لم يتم اختيار خدمة!															
+err_ias_downlimit	يجب ان يكون الدونلود صفر او اكبر!															
+err_ias_uplimit	يجب ان يكون الابلود صفر او اكبر!															
+err_ias_totallimit	يجب ان يكون مجموع التحميل صفر او اكبر!															
+err_ias_uptimelimit	يجب ان يكون الوقت صفر او اكبر!															
+err_ias_expiretime	يجب أن يكون الوقت المتاح صفر أو عدد أكبر!															
+err_ias_exists	خدمة الوصول الفوري موجود بالفعل!															
+err_ias_not_found	خدمة الوصول الفوري غير موجود!															
+err_iaspayment_cancelled	الغاء شراء الخدمة															
+err_ias_validity	تنسيق التاريخ غير صالح!															
+err_del_def_srv	لا يمكن حذف الخدمة الافتراضية!															
+err_del_def_usergroup	افتراضي مجموعة من المستخدمين لا يمكن حذف!															
+err_del_card_user	لا يمكن حذف مستخدمي البطاقات!															
+err_cc_unsupported_country	بلد التاجر غير معتمد!															
+err_no_services_available	لايوجد خدمات متاحه 															
+err_cc_unsupported_currency	نظام العملة غير معتمد!															
+err_db	خطأ في قاعدة البيانات!															
+err_acc_already_verified	تم التحقق من الحساب بالفعل!															
+err_acc_not_selfreg	هذا الحساب غير مسجل لنفسه!															
+err_invalid_verification	رمز التحقق غير صالح!															
+err_nomoretries	لا يوجد لديك مزيد من المحاولات!															
+err_mobilebanned	رقم موبيل محظور!															
+err_emailbanned	بريد اليكترونى محظور!															
+err_not_own_user	يمكنك الوصول للمستخدمين خاصتك فقط!															
+err_radius_running	النظام يعمل بالفعل!															
+err_radius_notrunning	النظام لا يعمل الان!															
+err_dhcp_running	يعمل بالفعل!															
+err_dhcp_notrunning	لا يعمل الان!															
+err_dhcp_file	خطأ في الوصول إلى ملف التكوين DHCP!															
+err_sms_maxnum	لقد تخطيت كل محاولات ارسال كود التفعيل لك !															
+err_ivalid_value	قيمة غير صالحة!															
+err_wrong_acc_type	نوع الحساب الخاطئ!															
+err_noreg_user	يتم تسجيل هذا المستخدم بعد بداية فترة الفاتورة!															
+err_invalid_cartid	رقم كارت غير صالح!															
+err_invalid_warnlevel	مستوى التحذير غير صالح!															
+err_tftp	خطاء فى اتمام ملف tftp!															
+err_capcode	كود الحماية غير صالح!															
+																
+// system messages																
+
+msg_msg_sent				أرسلت رسالة إلى
+msg_sync_ok	تمت العمليه بنجاح															
+msg_srv_change_same	لقد اخترت نفس السرعه 															
+msg_srv_change_already_scheduled	هذه الخدمة تم تغيرها بالفعل من قبل															
+msg_srv_change_scheduled	تغيير الخدمة المقرر															
+msg_srv_change_cancelled	تغيير الخدمة إلغاء															
+msg_srv_change_completed	تغيرت الخدمة															
+msg_series_revoked	تم الغاء الكروت بنجاح															
+msg_series_reactivated	تم اعادة تنشيط الكروت بنجاح															
+msg_series_deleted	تم حذف الكروت بنجاح															
+msg_card_revoked	تم الغاء الكارت بنجاح															
+msg_card_enabled	تم تفعيل الكارت بنجاح															
+msg_card_deleted	تم حذف الكارت بنجاح															
+msg_card_entered	تم اضافه الرصيد الى حسابك بنجاح															
+msg_credits_added	تم اضافه الرصيد بنجاح															
+msg_cards_generated	تم أنشأء الكروت بنجاح															
+msg_psw_updated	كلمة تحديثها															
+msg_usergroup_created	تم اضافه مجموعه مستخدمين بنجاح															
+msg_usergroup_updated	تم تحديث مجموعه المستخدمين بنجاح															
+msg_usergroup_deleted	تم حذف مجموعه المستخدمين بنجاح															
+msg_invoice_updated	تم تجديد الفاتوره															
+msg_settings_updated	تم تحديث اعدادات النظام															
+msg_psw_changed	تم تغير كلمة السر بنجاح															
+msg_user_logged_out	تم تسجيل خروج العميل بنجاح															
+msg_user_deleted	تم حذف المشترك بنجاح															
+msg_user_enabled	تم تفعيل المشترك بنجاح															
+msg_user_disabled	تم تعطيل المشترك بنجاح															
+msg_user_created	تم تسجيل الحساب بنجاح															
+msg_user_updated	تم التحديث بنجاح															
+msg_manager_enabled	تم تفعيل المدير بنجاح														
+msg_manager_disabled	تم تعطيل المدير بنجاح															
+msg_manager_created	تم تسجيل المدير بنجاح															
+msg_manager_updated	تم التحديث بنجاح														
+msg_manager_deleted	تم حذف المدير بنجاح															
+msg_service_enabled	تم تفعيل البروفيل بنجاح 															
+msg_service_disabled	تم تعطيل البروفيل بنجاح															
+msg_service_created	تمت الاضافه بنجاح															
+msg_service_updated	تم التحديث بنجاح															
+msg_service_deleted	تم حذف البروفيل بنجاح															
+msg_credits_added	تم اضافه الرصيد بنجاح															
+msg_nas_created	 تمت الاضافه بنجاح															
+msg_nas_updated  تم التحديث بنجاح															
+msg_nas_deleted	 تمت الحذف بنجاح															
+msg_ap_created	تم التسجيل بنجاح														
+msg_ap_updated	تم التحديث بنجاح															
+msg_ap_deleted	تم الحذف بنجاح															
+msg_pool_created	تم التسجيل بنجاح														
+msg_pool_updated	تم التحديث بنجاح															
+msg_pool_deleted	تم الحذف بنجاح															
+msg_cmts_created	تم التسجيل بنجاح														
+msg_cmts_updated	تم التحديث بنجاح															
+msg_cmts_deleted	CMTS تم حذف															
+msg_ias_created	تم التسجيل بنجاح															
+msg_ias_updated	تم التحديث بنجاح															
+msg_ias_deleted	تم الحذف بنجاح															
+msg_ias_enabled	تم التمكين بنجاح															
+msg_ias_disabled	تم التعطيل بنجاح															
+msg_account_verified	تم التأكد من حسابك												
+msg_trial_expires	انتهاء الترخيص بتاريخ															
+msg_acc_credited	حساب موزع الخدمة															
+msg_code_sent	تم الارسال الى رقم المحمول 														
+msg_disconnected	تم ارسال طلب قطع الاتصال بنجاح															
+msg_verifysentemail	تم إرسال رابط  التحقق إلى عنوان البريد الإلكتروني الخاص بك															
+msg_verifysentsms	تم إرسال رمز التحقق إلى هاتفك المحمول															
+msg_newpswsentemail	تم تفعيل رابط التحقق بنجاح وارسال لك كلمة السر الجديدة الى بريدك الاليكتورنى															
+msg_newpswactive	تم إرسال كلمة المرور الجديدة إلى هاتفك النقال															
+																
+// array elements																
+																
+arr_srvtype0	اشتراك مسبق الدفع															
+arr_srvtype1	الدفع الآجل															
+arr_taxtype0	شمل															
+arr_taxtype1	استبعاد															
+arr_paymode0	الدفع نقدا															
+arr_paymode1	التحويل المصرفي															
+arr_paymode2	داخلي															
+arr_paymode3	كروت مسبقة الدفع															
+arr_paymode4	باي بال موقع المدفوعات قياسي															
+arr_paymode5	باي بال  موقع برو															
+arr_paymode6	باي بال عبر عن الخروج															
+arr_paymode7	Netcash															
+arr_paymode8	Authorize.Net															
+arr_paymode9	DPS الدفع اكسبرس															
+arr_paymode10	2Checkout															
+arr_paymode11	PayFast	
+arr_paymode12	Citrus Payments
+arr_paymode13	Paytm														
+arr_acctype0	المستخدم العادي															
+arr_acctype1	التسجيل بالماك فقط															
+arr_timeunit0	عدد الدقائق															
+arr_timeunit1	عدد الساعات															
+arr_timeunit2	عدد الايام															
+arr_timeunit3	عدد الشهور															
+arr_month0	يناير															
+arr_month1	فبراير															
+arr_month2	مارس															
+arr_month3	أبريل															
+arr_month4	مايو															
+arr_month5	يونيو															
+arr_month6	يوليو															
+arr_month7	أغسطس															
+arr_month8	سبتمبر															
+arr_month9	أكتوبر															
+arr_month10	نوفمبر															
+arr_month11	ديسمبر															
+arr_cardexpiration0	ساعات															
+arr_cardexpiration1	ايام															
+arr_cardexpiration2	أشهر															
+arr_syslog0	تم تسجيل حساب بنجاح															
+arr_syslog1	تم تحديث حساب  بنجاح															
+arr_syslog2	تم حذف الحساب بنجاح															
+arr_syslog3	تم تسجيل دخول المدير بنجاح															
+arr_syslog4	تم تسجيل الخروج من المدير بنجاح															
+arr_syslog5	تم تحديث اعدادات النظام بنجاح												
+arr_syslog6	اضافه مدير جديد															
+arr_syslog7	تم تحديث المدير 											
+arr_syslog8	تم حذف المدير															
+arr_syslog9	تم تسجيل بروفيل جديد															
+arr_syslog10	تم تحديث بروفيل بنجاح															
+arr_syslog11	حذف الخدمة															
+arr_syslog12	تم اضافه الشبكة															
+arr_syslog13	تم تحديث الشبكة															
+arr_syslog14	تم حذف الشبكة															
+arr_syslog15	قام بأرسال بريد اليكترونى للجميع															
+arr_syslog16	فاتورة تجديد															
+arr_syslog17	تحديث فترات تسجيل الدخول للمشتركين															
+arr_syslog18	تجديد السرعات  والباندويث الخاص للبروفيل															
+arr_syslog19	تجديد مجموعه الاعضاء															
+arr_syslog20	تسجيل مجموعه اعضاء															
+arr_syslog21	بدأت الدفعة الفواتير															
+arr_syslog22	الغاء كارت															
+arr_syslog23	تم انشاء مجموعه كروت جديدة															
+arr_syslog24	قالب IAS تسجيل															
+arr_syslog25	قالب IAS تحديث															
+arr_syslog26	قالب IAS حذف															
+arr_syslog27	تجمع IP تسجيل															
+arr_syslog28	تجمع IP تحديثها															
+arr_syslog29	تجمع IP حذف															
+arr_syslog30	CMTS سجلت															
+arr_syslog31	CMTS تجديد															
+arr_syslog32	CMTS حذفها															
+arr_syslog33	أضافه اكسس جديدة															
+arr_syslog34	تحديث اكسس															
+arr_syslog35	حذف اكسس															
+arr_syslog36	ارسال رسائل جماعية														
+arr_syslog37	فشل تسجيل الدخول															
+arr_syslog38	انتهت جلسه المدير تلقائيا															
+arr_syslog39	قام بتسجيل ذاتى لنفسو															
+arr_syslog40	تسجيل IAS															
+arr_nastype0	مايكروتك															
+arr_nastype1	StarOS															
+arr_nastype2	ChilliSpot															
+arr_nastype3	سيسكو															
+arr_nastype4	pfSense															
+arr_nastype5	آخر															
+arr_apaccessmode0	SNMP															
+arr_apaccessmode1	مايكروتك API															

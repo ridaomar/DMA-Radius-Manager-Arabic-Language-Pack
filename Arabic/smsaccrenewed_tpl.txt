@@ -1,0 +1,13 @@
+عزيزي {NAME}! لقد تم اعادة تجديد خدمتك بنجاح. الداونلود المتاح: {NEWDL} الابلود المتاح: {NEWUL} مجموع التحميلات المتاحة: {NEWTOTAL} الوقت المتاح لك: {NEWONLINETIME} تاريخ إنتهاء الإشتراك: {NEWEXPIRATION}
+
+
+Available tags:
+{NAME} - first name + last name or user name
+{USERNAME} - user name
+{FIRSTNAME} - first name
+{LASTNAME} - last name
+{NEWDL} - new download traffic limit
+{NEWUL} - new upload traffic limit
+{NEWTOTAL} - new total traffic limit
+{NEWONLINETIME} - new online time limit
+{NEWEXPIRATION} - new expiry date

@@ -1,0 +1,219 @@
+<html>
+<head>
+<title>Radius Manager - Invoice</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+     P.pagebreak {page-break-after: always}
+</style>
+</head>
+<body leftmargin="2" topmargin="2" marginwidth="2" marginheight="2">
+<div align="left"> 
+  <table width="630" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="invoice-big">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+          <tr> 
+            <td width="188" height="98"><div align="center"> 
+                <p class="normal"><img src="{LANGPATH}/invoice/invoice-logo.gif" width="300" height="95"></p>
+              </div></td>
+            <td width="592" class="normal">&nbsp;</td>
+          </tr>
+        </table>
+        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+          <tr> 
+            <td valign="top"><table border="0" cellspacing="0" cellpadding="2">
+                <tr class="invoice-big"> 
+                  <td><div align="right">Residence, date:</div></td>
+                  <td> <strong>Smallville, {YEAR1}.{MONTH1}.{DAY1}.</strong></td>
+                </tr>
+                <tr class="invoice-big"> 
+                  <td><div align="right">Payment option: <strong></strong></div></td>
+                  <td><strong>{YEAR2}.{MONTH2}.{DAY2}.</strong></td>
+                </tr>
+                <tr class="invoice-big"> 
+                  <td><div align="right">VAT id:</div></td>
+                  <td><strong>43242331312</strong></td>
+                </tr>
+              </table>
+            </td>
+            <td valign="top" class="invoice-hd"> <div align="right">
+                <table width="100%" border="0" cellpadding="2" cellspacing="0">
+                  <tr class="invoice-big"> 
+                    <td nowrap><div align="right">Name or company: <strong></strong></div></td>
+                    <td><strong>{FULLNAME}</strong></td>
+                  </tr>
+                  <tr class="invoice-big"> 
+                    <td nowrap><div align="right">Address:</div></td>
+                    <td><strong>{ADDRESS}</strong></td>
+                  </tr>
+                  <tr class="invoice-big"> 
+                    <td nowrap><div align="right">City:</div></td>
+                    <td><strong> {CITY}</strong></td>
+                  </tr>
+                  <tr class="invoice-big"> 
+                    <td nowrap><div align="right">ZIP:</div></td>
+                    <td><strong> {ZIP}</strong></td>
+                  </tr>
+                  <tr class="invoice-big"> 
+                    <td nowrap><div align="right">Country:</div></td>
+                    <td><strong> {COUNTRY}</strong></td>
+                  </tr>
+                  <tr class="invoice-big"> 
+                    <td nowrap><div align="right">State:</div></td>
+                    <td><strong> {STATE}</strong></td>
+                  </tr>
+                  <tr class="invoice-big"> 
+                    <td nowrap> <div align="right">Phone: </div></td>
+                    <td><strong>{PHONE}</strong></td>
+                  </tr>
+                  <tr class="invoice-big"> 
+                    <td nowrap><div align="right">Mobile: </div></td>
+                    <td><strong>{MOBILE}</strong></td>
+                  </tr>
+                  <tr class="invoice-big"> 
+                    <td nowrap><div align="right">User name:</div></td>
+                    <td><strong>{USERNAME}</strong></td>
+                  </tr>
+                  <tr class="invoice-big"> 
+                    <td nowrap> <div align="right">VAT id: </div></td>
+                    <td><strong>{VATID}</strong></td>
+                  </tr>
+                </table>
+              </div></td>
+          </tr>
+        </table>
+        <p align="center"> Invoice number: <strong>{INVID}</strong></p>
+        <p> <br>
+        </p>
+        <table width="100%" border="0" cellpadding="0" cellspacing="2">
+          <tr class="normal"> 
+            <td width="30" nowrap><div align="center"><strong>No</strong></div></td>
+            <td nowrap> <p align="center" class="normal"><strong>Description</strong></p></td>
+            <td width="100" nowrap> 
+              <p align="center" class="normal"><strong>Unit price</strong></p></td>
+            <td width="70" nowrap><div align="center"><strong>Qty.</strong></div></td>
+            <td width="50" nowrap><div align="center"><strong>VAT %</strong></div></td>
+            <td width="120" nowrap> <div align="center"><strong>Price</strong></div></td>
+          </tr>
+        </table>
+        <img src="images/spacer-black.gif" width="630" height="1">
+<table width="100%" border="0" cellpadding="0" cellspacing="2">
+          <tr> 
+            <td width="30" nowrap class="normal"><div align="center">1.</div></td>
+            <td class="normal">{SERVICE}</td>
+            <td width="100" nowrap class="normal"><div align="right">{NETPRICE}</div></td>
+            <td width="70" nowrap class="normal"><div align="right">{AMOUNT}</div></td>
+            <td width="50" nowrap class="normal"><div align="right">{VATPERCENT}</div></td>
+            <td width="120" nowrap class="normal"><div align="right">{PRICE} {CURRENCY}</div>
+              </td>
+          </tr>
+        </table>
+        <img src="images/spacer-black.gif" width="630" height="1"> 
+        <table width="100%" border="0" cellpadding="0" cellspacing="2">
+          <tr> 
+            <td class="normal"><div align="right">Price:</div></td>
+            <td nowrap class="normal"><div align="right">{PRICE} {CURRENCY}</div>
+              </td>
+          </tr>
+          <tr> 
+            <td class="normal"><div align="right">VAT:</div></td>
+            <td nowrap class="normal"><div align="right">{VAT} {CURRENCY}</div>
+              </td>
+          </tr>
+          <tr> 
+            <td class="normal"><div align="right"><strong>TOTAL PRICE:</strong></div></td>
+            <td width="120" nowrap class="normal"><div align="right"><strong>{TOTALPRICE} 
+                </strong><strong>{CURRENCY}</strong></div>
+              </td>
+          </tr>
+        </table>
+        <br>
+        <br>
+        <br>
+        <table width="100%" border="0" cellpadding="0" cellspacing="2">
+          <tr> 
+            <td height="100" valign="top" class="invoice-big"> <table width="100%%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td valign="top"><p class="invoice-big"><strong>Payment method:</strong> 
+                      {PAYMODE}<br>
+                      <strong>Gateway transaction ID:</strong> {GWTRANSID}</p>
+                    <p class="invoice-big"><strong>Remark:</strong> {REMARK}</p>
+                    </td>
+                  <td><p class="invoice-big"><strong>Prepaid service details:</strong></p>
+                    <table width="50%%" border="0" cellspacing="0" cellpadding="0">
+                      <tr class="invoice-big"> 
+                        <td nowrap><div align="right">Download traffic added:</div></td>
+                        <td nowrap><strong>{ADDEDDL}</strong></td>
+                      </tr>
+                      <tr class="invoice-big"> 
+                        <td nowrap><div align="right">Upload traffic added:</div></td>
+                        <td nowrap><strong>{ADDEDUL}</strong></td>
+                      </tr>
+                      <tr class="invoice-big"> 
+                        <td nowrap><div align="right">Total traffic added:</div></td>
+                        <td nowrap><strong>{ADDEDTOTAL}</strong></td>
+                      </tr>
+                      <tr class="invoice-big"> 
+                        <td nowrap><div align="right">Online time added:</div></td>
+                        <td nowrap><strong>{ADDEDTIME}</strong></td>
+                      </tr>
+                      <tr class="invoice-big"> 
+                        <td nowrap><div align="right">Days added:</div></td>
+                        <td nowrap><strong>{ADDEDDAYS}</strong></td>
+                      </tr>
+                      <tr class="invoice-big"> 
+                        <td nowrap><div align="right"></div></td>
+                        <td nowrap>&nbsp;</td>
+                      </tr>
+                      <tr class="invoice-big"> 
+                        <td nowrap><div align="right">Available download traffic:</div></td>
+                        <td nowrap><strong>{AVAILDL}</strong></td>
+                      </tr>
+                      <tr class="invoice-big"> 
+                        <td nowrap><div align="right">Available upload traffic:</div></td>
+                        <td nowrap><strong>{AVAILUL}</strong></td>
+                      </tr>
+                      <tr class="invoice-big"> 
+                        <td nowrap><div align="right">Available total traffic:</div></td>
+                        <td nowrap><strong>{AVAILTOTAL}</strong></td>
+                      </tr>
+                      <tr class="invoice-big"> 
+                        <td nowrap><div align="right">Available online time:</div></td>
+                        <td nowrap><strong>{AVAILTIME}</strong></td>
+                      </tr>
+                      <tr class="invoice-big"> 
+                        <td nowrap><div align="right">Account expiry date:</div></td>
+                        <td nowrap><strong>{EXPIRY}</strong></td>
+                      </tr>
+                    </table></td>
+                </tr>
+              </table>
+              <p>&nbsp;</p>
+              </td>
+          </tr>
+        </table>
+        <p class="invoice-big">&nbsp;</p>
+        <div align="center">
+<table border="0" align="right" cellpadding="0" cellspacing="0">
+            <tr> 
+              <td class="invoice-big"><div align="center">Invoice issued:</div></td>
+            </tr>
+            <tr> 
+              <td>&nbsp;</td>
+            </tr>
+            <tr> 
+              <td><div align="center">___________________________</div></td>
+            </tr>
+          </table>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p><img src="images/spacer-black.gif" width="630" height="1"> Hypo-Alpe-Adria 
+            Bank AD</p>
+          </div></td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
